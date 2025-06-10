@@ -2164,7 +2164,7 @@ input, select, textarea {
 
 	.wrapper {
 		background: #fff;
-		margin: 0 0 2em 0;
+		margin: 2em 0 2em 0;
 		padding: 6em 0 6em 0;
 	}
 
@@ -2298,20 +2298,10 @@ input, select, textarea {
 			display: inline-block;
 			margin: 0;
 			height: 21px;
-			border-left: solid 1px rgba(192, 192, 192, 0.35);
-			border-right: solid 1px rgba(192, 192, 192, 0.35);
 		}
 
 			#nav > ul:before, #nav > ul:after {
-				content: '';
-				display: block;
-				width: 300%;
-				position: absolute;
-				top: 50%;
-				margin-top: -2px;
-				height: 5px;
-				border-top: solid 1px rgba(192, 192, 192, 0.35);
-				border-bottom: solid 1px rgba(192, 192, 192, 0.35);
+				display: None;
 			}
 
 			#nav > ul:before {
@@ -2459,7 +2449,7 @@ input, select, textarea {
 	#footer {
 		position: relative;
 		overflow: hidden;
-		padding: 6em 0 6em 0;
+		padding: 3em 0 3em 0;
 		background: #2b252c;
 		color: #fff;
 	}
