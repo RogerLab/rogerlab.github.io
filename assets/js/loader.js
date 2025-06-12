@@ -13,4 +13,5 @@ function loadHTML(selector, file) {
 
 document.addEventListener("DOMContentLoaded", () => {
     loadHTML("#nav-container", "nav.html");
+    loadHTML("#footer-container", "footer.html")
 });
