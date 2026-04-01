@@ -11,14 +11,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<!-- this currently slights affects horizontal page fit; decides if this bothers too much or not -->
 		<style>
 			.portrait-grid {
 				display: grid;
-				grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+				grid-template-columns: repeat(auto-fit, 200px);
 				gap: 1.5rem;
-				max-width: 1000px;
-				margin: 0 auto;
+				justify-content: center;
+				max-width: calc(5 * 200px + 4 * 1.5rem);
+				margin: 0 auto 1.5rem auto;
 			}
 
 			.portrait-card {
@@ -32,6 +32,8 @@
 				padding: 1rem;
 				box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 				transition: transform 0.2s ease, box-shadow 0.2s ease;
+				width: 200px;
+				box-sizing: border-box;
 			}
 
 			.portrait-card:hover {
@@ -90,15 +92,32 @@
 
 					<div class="centered-title">
 
-						<h2>Current Members</h2>
+						<h2>Principal Investigator</h2>
 
 					</div>
 
 					<div class="portrait-grid">
+
 						<a href="people/andrew.html" class="portrait-card">
 							<img src="images/AndrewFD.jpg" alt="Portrait of Andrew">
 							<span class="portrait-name">Andrew J. Roger</span>
-							<span class="portrait-subtext">Principal Investigator</span>
+							<span class="portrait-subtext">Distinguished Professor</span>
+						</a>
+
+					</div>
+
+					<div class="centered-title">
+
+						<h2>Staff</h2>
+
+					</div>
+
+					<div class="portrait-grid">
+
+						<a href="people/kathy.html" class="portrait-card">
+							<img src="" alt="Portrait of Kathy">
+							<span class="portrait-name">Katherine Dunn</span>
+							<span class="portrait-subtext">Research Associate</span>
 						</a>
 
 						<a href="people/joran.html" class="portrait-card">
@@ -107,9 +126,37 @@
 							<span class="portrait-subtext">Research Associate</span>
 						</a>
 
+					</div>
+
+					<div class="centered-title">
+
+						<h2>Graduate Students</h2>
+
+					</div>
+
+					<div class="portrait-grid">
+
+						<a href="people/greg.html" class="portrait-card">
+							<img src="" alt="Portrait of Greg">
+							<span class="portrait-name">Gregory Seaton</span>
+							<span class="portrait-subtext">PhD Student</span>
+						</a>
+
 						<a href="people/jason.html" class="portrait-card">
 							<img src="images/Jason.jpg" alt="Portrait of Jason">
 							<span class="portrait-name">Jason D. Shao</span>
+							<span class="portrait-subtext">PhD Student</span>
+						</a>
+
+						<a href="people/kelsey.html" class="portrait-card">
+							<img src="" alt="Portrait of Kelsey">
+							<span class="portrait-name">Kelsey Williamson</span>
+							<span class="portrait-subtext">PhD Student</span>
+						</a>
+
+						<a href="people/min.html" class="portrait-card">
+							<img src="" alt="Portrait of Min">
+							<span class="portrait-name">Min Cho</span>
 							<span class="portrait-subtext">PhD Student</span>
 						</a>
 
@@ -117,6 +164,22 @@
 							<img src="images/Tugba.jpg" alt="Portrait of Tuğba">
 							<span class="portrait-name">Tuğba Nur Atalay</span>
 							<span class="portrait-subtext">PhD Student</span>
+						</a>
+
+					</div>
+
+					<div class="centered-title">
+
+						<h2>Undergraduate Students</h2>
+
+					</div>
+
+					<div class="portrait-grid">
+
+						<a href="people/tania.html" class="portrait-card">
+							<img src="" alt="Portrait of Tania">
+							<span class="portrait-name">Tania Iranpour</span>
+							<span class="portrait-subtext">Honours Student</span>
 						</a>
 
 					</div>
