@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<!--
+	Helios by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="en">
+	<head>
+		<title>Gallery</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.carousel {
+				max-width: 1500px;
+				margin: 2rem auto;
+			}
+
+			.carousel-window {
+				position: relative;
+				width: 100%;
+				height: 800px;
+				overflow: hidden;
+				border-radius: 12px;
+				box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+				background: #fff;
+			}
+
+			.carousel-window img {
+				display: block;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+
+			.carousel-control {
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				border: none;
+				background: transparent;
+				box-shadow: none;
+				padding: 0.5rem;
+				cursor: pointer;
+				font-size: 3rem;
+				line-height: 1;
+				color: white;
+				text-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+			}
+
+			.carousel-control.prev {
+				left: 1rem;
+			}
+
+			.carousel-control.next {
+				right: 1rem;
+			}
+
+			.carousel-indicators {
+				display: flex;
+				justify-content: center;
+				gap: 0.5rem;
+				margin-top: 2rem;
+			}
+
+			.carousel-indicator {
+				width: 20px;
+				height: 20px;
+				border: none;
+				border-radius: 50%;
+				background: #ccc;
+				cursor: pointer;
+				padding: 0;
+			}
+
+			.carousel-indicator.active {
+				background: #333;
+			}
+		</style>
+	</head>
+	<body class="no-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header">
+
+					<!-- Inner -->
+						<div class="inner">
+							<header>
+								<h1>Gallery</h1>
+							</header>
+						</div>
+
+					<!-- Nav -->
+						<div id="nav-container"></div>
+						<script src="assets/js/loader.js"></script>
+
+				</div>
+
+			<!-- Main -->
+				<div class="wrapper style1">
+					<section class="carousel">
+						<div class="carousel-window">
+							<img id="carousel-image" src="/images/backgrounds/cape_north_1.jpeg" alt="Slide 1">
+
+							<span class="carousel-control prev" role="button" aria-label="Previous slide">&#10094;</span>
+							<span class="carousel-control next" role="button" aria-label="Next slide">&#10095;</span>
+						</div>
+
+						<p id="carousel-caption" class="carousel-caption"></p>
+
+						<div class="carousel-indicators">
+							<button class="carousel-indicator active" type="button" data-slide="0" aria-label="Go to slide 1"></button>
+							<button class="carousel-indicator" type="button" data-slide="1" aria-label="Go to slide 2"></button>
+							<button class="carousel-indicator" type="button" data-slide="2" aria-label="Go to slide 3"></button>
+						</div>
+					</section>
+				</div>
+
+
+			<!-- Footer -->
+				<div id="footer-container"></div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/loader.js"></script>
+			<script src="assets/js/header-background.js"></script>
+			<script src="assets/js/gallery.js"></script>
+
+	</body>
+</html>
