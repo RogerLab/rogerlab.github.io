@@ -1,19 +1,24 @@
 document.addEventListener("DOMContentLoaded", () => {
     const slides = [
         {
-            src: "/images/backgrounds/cape_north_1.jpeg",
-            alt: "",
-            caption: "Cape North at sunset."
+            src: "/images/group_photos/2025_sep.jpeg",
+            caption: "Roger Lab 2025 September"
         },
         {
-            src: "/images/backgrounds/cape_north_2.jpeg",
-            alt: "",
-            caption: "Waves breaking along the shore."
+            src: "/images/group_photos/2024_oct.jpeg",
+            caption: "Roger Lab 2024 October"
         },
         {
-            src: "/images/backgrounds/cape_north_3.jpeg",
-            alt: "",
-            caption: "Evening light over the Atlantic."
+            src: "/images/group_photos/2017_sep.jpeg",
+            caption: "Roger Lab 2017 September"
+        },
+        {
+            src: "/images/group_photos/2014_may.jpeg",
+            caption: "Roger Lab 2014 May"
+        },
+        {
+            src: "/images/group_photos/2012.jpeg",
+            caption: "Roger Lab 2012"
         }
     ];
 
@@ -28,7 +33,6 @@ document.addEventListener("DOMContentLoaded", () => {
     function renderSlide(index) {
         currentIndex = index;
         image.src = slides[currentIndex].src;
-        image.alt = slides[currentIndex].alt;
         if (caption) {
             caption.textContent = slides[currentIndex].caption;
         }
