@@ -35,7 +35,17 @@ document.addEventListener("DOMContentLoaded", () => {
             'Gerbracht J.V., Harding T., Simpson A.G.B., Roger A.J., Hess S. (2022) Comparative transcriptomics reveals the molecular toolkit used by an algivorous protist for cell wall perforation. Curr. Biol. 32:3374-3384. e5',
             'Mathavarajah S., Vergunst K.L., Williams S.K., He R., Maliougina M., Habib E.B., Park M., Salsman J., Roy s., Braasch I. Roger A.J., Langelaan D.N. and Dellaire G. (2022) PML and PML-like exonucleases restrict retrotransposons in jawed vertebrates. Nucleic Acids Res. 51: 3185-3204',
             'Youssef N., Susko E., Roger A.J. and Bielawski J.P. (2022) Evolution of amino acid propensities under stability-mediated epistasis.  Mol. Biol. Evol. 39:msac030 <a href=https://doi.org/10.1093/molbev/msac030>https://doi.org/10.1093/molbev/msac030</a>',
-            'Muñoz-Gómez S.A., Susko E., Williamson K., Eme L., Slamovits C.H., Moreira D., López-García P. and Roger A.J. (2022) Site-and-branch-heterogeneous analyses of an expanded dataset favors mitochondria as sister to known Alphaproteobacteria. Nat. Ecol. Evol. https://doi.org/10.1038/s41559-021-01638-2',
+            'Muñoz-Gómez S.A., Susko E., Williamson K., Eme L., Slamovits C.H., Moreira D., López-García P. and Roger A.J. (2022) Site-and-branch-heterogeneous analyses of an expanded dataset favors mitochondria as sister to known Alphaproteobacteria. Nat. Ecol. Evol. https://doi.org/10.1038/s41559-021-01638-2'
+        ],
+        2021: [
+            'Salas-Leiva D.E., Tromer E.C., Curtis B.A., Jerlström-Hultqvist J., Kolisko M., Yi Z., Salas-Leiva J., Gallot-Lavallée L., Kops G.J.P.L., Archibald J.M., Simpson A.G.B., Roger A.J. (2021) A free-living protist that lacks canonical eukaryotic DNA replication and segregation systems. Nat. Communications. 12: 6003. <a href=https://doi.org/10.1038/s41467-021-26077-2>https://doi.org/10.1038/s41467-021-26077-2</a>',
+            'Stairs C.W., Táborski P., Kolisko M., Pánek T., Eme L., Hradilová M., Vlček C., Jerlström-Hultqvist J., Roger A.J. and Čepička I. (2021) Anaeramoebae are a deeply divergent lineage of eukaryotes that clarify the transition from anaerobic mitochondria to hydrogenosomes. Curr. Biol. 31: 5605-5612',
+            'Tice AK, Žihala D, Pánek T, Jones RE, Salomaki E, Nenarokov S, Burki F, Eliáš M, Eme L, Roger A.J., Rokas A, Shen X, Strassert JFH, Kolísko M, Brown MW. (2021). PhyloFisher: A phylogenomic package for resolving eukaryotic relationships. PLoS Biol. <a href=https://doi.org/10.1371/journal.pbio.3001365>https://doi.org/10.1371/journal.pbio.3001365</a>',
+            'Pipaliya S., Santos R., Salas-Leiva D., Balmer E.A., Wirdnam C.D., Roger A.J., Hehl A.B., Faso, C. and Dacks J.B. (2021) Unexpected organellar locations of ESCRT machinery in Giardia intestinalis and complex evolutionary dynamics spanning the transition to parasitism in the lineage Fornicata. BMC Biol. <a href=https://doi.org/10.1186/s12915-021-01077-2>https://doi.org/10.1186/s12915-021-01077-2</a>',
+            'Susko E., Steel, M. and Roger A.J. (2021) Conditions under which distributions of edge length ratios on phylogenetic trees can be used to order evolutionary events. J. Theor. Biol. 526:110788',
+            'Zhang, T., Li C., Zhang Z., Wang C., Roger A.J. and Gao F. (2021) Characterization and comparative analyses of mitochondrial genomes in single-celled eukaryotes to shed light on the diversity and evolution of linear molecular architecture. Int. J. Mol. Sci. 22:2546',
+            'Susko E. and Roger, A.J.  (2021) Long branch attraction biases in phylogenetics. Syst. Biol. 70:838-843',
+            'Žárský V., Klimeš V., Pačes J., Vlček C., Hradilová M., Beneš V., Nývltová E., Hrdý I., Pyrih J., Mach J., Barlow L., Stairs C.W., Eme L., Hall N., Eliáš M., Dacks J.B., Roger A.J. and Tachezy J. (2021) The Mastigamoeba balamuthi genome and the nature of the free-living ancestor of Entamoeba. Mol. Biol. Evol. (in press) <a href=https://doi.org/10.1093/molbev/msab020>https://doi.org/10.1093/molbev/msab020</a>'
         ]
     };
 
@@ -75,7 +85,11 @@ document.addEventListener("DOMContentLoaded", () => {
         "Proc. Natl Acad. Sci.",
         "Parasites & Vectors",
         "Nucleic Acids Res.",
-        "Nat. Ecol. Evol."
+        "Nat. Ecol. Evol.",
+        "PLoS Biol.",
+        "BMC Biol.",
+        "J. Theor. Biol.",
+        "Int. J. Mol."
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
