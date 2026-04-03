@@ -22,6 +22,13 @@ document.addEventListener("DOMContentLoaded", () => {
             'Eglit Y., Williams S.K., Roger A.J. and Simpson A.G.B. (2024) Characterization of Skoliomonas gen. nov., a haloalkaliphilic anaerobe related to barthelonids (Metamonada).  J. Euk. Microbiol. <a href=https://doi.org/jeu.13048>https://doi.org/jeu.13048</a>',
             'Baker B., Gutiérrez-Preciado A., Rodriguez del Rio A., McCarthy C.G.P, López-Garcia P., Huerta-Cepas J., Susko E., Roger A.J., Eme L. and Moreira D. (2024) Expanded phylogeny of extremely halophilic archaea shows multiple independent adaptations to hypersaline environments. Nat. Microbiol. 9: 964-975',
             'Baños H., Susko E. and Roger A.J. (2024) Is over-parameterization a problem for profile mixture models? Syst. Biol. 73:53-75'
+        ],
+        2023: [
+            'Eglit Y., Shiratori T., Jerlström-Hultqvist J., Williamson K., Roger, A.J., Ishida K., and Simpson A.G.B. (2023) Meteora sporadica, a protist with incredible cell architecture, is related to Hemimastigophora. Curr. Biol. 34:451-459',
+            'Záhonová K., Füssy Z., Stairs C.W., Leger M.M., Tachezy J., Čepička I., Roger A.J., and Hampl V. (2023) Comparative analysis of mitochondrion-related organelles in anaerobic amoebozoans. Micro. Gen. 11:00143',
+            'Gallot-Lavallée L., Jerlström-Hultqvist J., Salas-Leiva D.E., Stairs C.W., Čepička I., Roger A.J. and Archibald J.M. (2023) Massive intein content in Anaeramoeba reveals new aspects of intein mobility in eukaryotes. Proc. Natl Acad. Sci. USA 120: e2306381120',
+            'Muñoz-Gómez S.A., Cadena L.R., Gardiner A.T., Leger M.M., Sheikh S., Connell L.B., Bily T., Kopejtka K., Beatty J.T., Koblížek M., Roger A.J., Slamovits C.H., Lukeš J. and Hashimi H. (2023) Intracytoplasmic-membrane development in alphaproteobacteria involves the homolog of the mitochondrial crista-developing protein Mic60. Curr. Biol. 33:1099-1111',
+            'Higuera A., Salas-Leiva D.E., Curtis B.A., Patiño L.H., Zhao D., Jerlström-Hultqvist J, Dlutek M., Muñoz M., Roger A.J., Ramírez J.D. (2023) Draft genomes of Blastocystis subtypes from human samples of Colombia. Parasites & Vectors 1:1-10.'
         ]
     };
 
@@ -55,7 +62,10 @@ document.addEventListener("DOMContentLoaded", () => {
         "mBio",
         "Mol. Phylogenet. Evol.",
         "Mol. Biol. Evol.",
-        "Nat. Communications"
+        "Nat. Communications",
+        "Micro. Gen.",
+        "Proc. Natl Acad. Sci.",
+        "Parasites & Vectors"
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
