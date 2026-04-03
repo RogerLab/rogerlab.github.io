@@ -46,6 +46,16 @@ document.addEventListener("DOMContentLoaded", () => {
             'Zhang, T., Li C., Zhang Z., Wang C., Roger A.J. and Gao F. (2021) Characterization and comparative analyses of mitochondrial genomes in single-celled eukaryotes to shed light on the diversity and evolution of linear molecular architecture. Int. J. Mol. Sci. 22:2546',
             'Susko E. and Roger, A.J.  (2021) Long branch attraction biases in phylogenetics. Syst. Biol. 70:838-843',
             'Žárský V., Klimeš V., Pačes J., Vlček C., Hradilová M., Beneš V., Nývltová E., Hrdý I., Pyrih J., Mach J., Barlow L., Stairs C.W., Eme L., Hall N., Eliáš M., Dacks J.B., Roger A.J. and Tachezy J. (2021) The Mastigamoeba balamuthi genome and the nature of the free-living ancestor of Entamoeba. Mol. Biol. Evol. (in press) <a href=https://doi.org/10.1093/molbev/msab020>https://doi.org/10.1093/molbev/msab020</a>'
+        ],
+        2020: [
+            'Gray M.W., Burger, G, Derelle R., Klimeš V, Leger M.M., Sarrasin M., Vlček C., Roger A.J., Eliáš M., Lang B.F. (2020) The draft nuclear genome sequence and predicted mitochondrial proteome of Andalucia godoyi, a protist with the most gene-rich and bacteria-like mitochondrial genome. BMC Biol. 18: 22 <a href=https://doi.org/10.1186/s12915-020-0741-6>https://doi.org/10.1186/s12915-020-0741-6</a>',
+            'Susko E. and Roger A.J. (2020) On the use of information criteria for model selection in phylogenetics. Mol. Biol. Evol. 37: 549-562.'
+        ],
+        2019: [
+            'Karnkowska A., Treitli S.C., Brzoň O., Novák L., Vacek V., Soukal P., Barlow L.D., Herman E.K., Pipaliya S., Pánek T., Žihala D., Petrželková R., Butenko A., Eme L., Stairs C.W., Roger A.J., Eliáš M., Dacks J.B. and Hampl V. (2019) The oxymonad genome displays canonical eukaryotic complexity in the absence of a mitochondrion. Mol. Biol. Evol. 36: 2292-2312.',
+            'Hess S., Eme L., Roger A.J. and Simpson A.G.B. (2019) A natural toroidal microswimmer propelled by a rotary eukaryotic flagellum. Nat. Microbiol. 4: 1620-1626.',
+            'Wang H.-C., Susko E. and Roger A.J. (2019) The relative importance of modeling site pattern heterogeneity versus partition-wise heterotachy in phylogenomic inference. Syst. Biol. 68: 1003-1019.',
+            'Muñoz-Gómez S.A., Hess S., Burger G., Lang B.F., Susko E., Slamovits C.H. and Roger A.J. (2019) An updated phylogeny of the Alphaproteobacteria reveals that the parasitic Rickettsiales and Holosporales have independent origins. eLife, Feb. 25; 8. pii: e42535.'
         ]
     };
 
@@ -62,7 +72,12 @@ document.addEventListener("DOMContentLoaded", () => {
         "Daneau J.",
         "Jerlström-Hultqvist J.",
         "Gallot-Lavallée L.",
-        "Harding T."
+        "Harding T.",
+        "Leger M.M.",
+        "Stairs C.W.",
+        "Hess S.",
+        "Eme L.",
+        "Wang H.-C."
     ].sort((a, b) => b.length - a.length);
 
     const namesToBold = [
@@ -89,7 +104,8 @@ document.addEventListener("DOMContentLoaded", () => {
         "PLoS Biol.",
         "BMC Biol.",
         "J. Theor. Biol.",
-        "Int. J. Mol."
+        "Int. J. Mol.",
+        "eLife"
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
