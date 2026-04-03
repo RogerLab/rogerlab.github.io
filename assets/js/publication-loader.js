@@ -4,29 +4,45 @@ document.addEventListener("DOMContentLoaded", () => {
             'Boisard J., Williams S.K., Roger A.J. and Stairs C.W. (2026) CoMR: an integrative scoring pipeline for comprehensive mitochondrial proteome reconstruction across eukaryotes. bioRxiv: <a href="https://doi.org/10.64898/2026.02.20.707009">https://doi.org/10.64898/2026.02.20.707009</a>',
             'Yi. Z., Williams S.K., Leger M.M., Brask N., Salas-Leiva D., Silberman J.D., Eglit Y., Simpson A.G.B., Roger A.J., Stairs C.W. (2026) Divergent trajectories for anaerobic mitochondrial evolution in breviate protists. bioRxiv: <a href="https://doi.org/10.64898/2026.01.29.702055">https://doi.org/10.64898/2026.01.29.702055</a>',
             'Susko E., Lanfear R. and Roger A.J. (2026) Comparing partition and mixture models with Akaike Information Criteria. Syst. Biol. <a href=https://doi.org/10.1093/sysbio/syag013>https://doi.org/10.1093/sysbio/syag013</a>',
-            'Raas W.D., Van Hooff J.J.E., Lukeš J., Richards T.A., Roger, A.J., Wickstead B., Kops G.J.P.L., Snel B. and Tromer E.C. (2026) The LECA had a conventional kinetochore and the kinetoplastid kinetochore is a derived feature—a critical evaluation of Akiyoshi, 2025. J. Cell Sci. 139: jcs264452',
+            'Raas W.D., Van Hooff J.J.E., Lukeš J., Richards T.A., Roger A.J., Wickstead B., Kops G.J.P.L., Snel B. and Tromer E.C. (2026) The LECA had a conventional kinetochore and the kinetoplastid kinetochore is a derived feature—a critical evaluation of Akiyoshi, 2025. J. Cell Sci. 139: jcs264452',
             'McCarthy C.G.P., Susko E. and Roger A.J. (2026) Modeling site-and-branch heterogeneity with GFmix.  Syst. Biol. (under review) see: <a href=https://www.biorxiv.org/content/10.1101/2025.08.07.669136v1.abstract>https://www.biorxiv.org/content/10.1101/2025.08.07.669136v1.abstract</a>',
         ],
         2025: [
-            'Author A., Roger A.J., Shao J.D. (2025) Example publication title. <i>Journal Name</i> 12:34-56.'
+            'Sibbald S.J., Lawton M., Maclean C., Roger A.J. and Archibald J.M. (2025) Pangenome biology and evolution in harmful algal-bloom-forming pelagophytes. Curr. Biol. (in press)',
+            'Harada R., Shiratori T., Yabuki A., Inagaki Y., Roger A.J. and Kamikawa R. (2025) Complete mitochondrial genomes of ancyromonads provide clues for the gene content and genome structures of ancestral mitochondria. J. Euk. Microbiol. 72: e70012',
+            'Baker B.A., McCarthy C.G.P., Lopez-Garcia P., Leroy R.B., Susko E., Roger A.J., Eme L. and Moreira D.  (2025) Phylogenomic analyses indicate the archaeal superphylum DPANN originate from free-living euryarchaeal-like ancestors.  Nat. Microbiol. 10: 1593-1604 <a href=https://doi.org/10.1038/s41564-025-02024-5>https://doi.org/10.1038/s41564-025-02024-5</a>',
+            'Williamson K., Eme L., Baños H., McCarthy C.G.P., Susko E., Kamikawa R., Orr R.J.S., Muñoz-Gómez S.A., Minh B.Q., Simpson A.G.B., and Roger A.J. (2025) A robustly rooted tree of eukaryotes reveals their excavate ancestry. Nature 640: 974-981 <a href=https://doi.org/10.1038/s41586-025-08709-5>https://doi.org/10.1038/s41586-025-08709-5</a>',
+            'Zhao D., Salas-Leiva D.E., Williams S.K., Dunn K., Shao J.D., and Roger A.J. (2025) Eukfinder: a pipeline to retrieve microbial eukaryote genomes from metagenomic sequencing data. mBio 16:e00699-25 <a href=https://10.1128/mbio.00699-25>https://10.1128/mbio.00699-25</a>',
+            'Pánek T., Tice A.K., Corre P., Hrubá P., Žihala D., Kamikawa R., Yazaki E., Shiratori T., Kume K. Hashimoto T., Ishida K., Hradilová M., Silberman J.D., Roger A.J., Inagaki Y., Eliás M., Brown M.W., Čepička I.  (2025) An expanded phylogenomic analysis of Heterolobosea reveals the deep relationships, non-canonical genetic codes, and cryptic flagellate stages in the group. Mol. Phylogenet. Evol. 204:108289'
         ]
     };
 
     const namesToUnderline = [
         "Williams S.K.",
-        "Shao J.D.",
-        "McCarthy C.G.P."
+        "McCarthy C.G.P.",
+        "Harada R.",
+        "Williamson K.",
+        "Baños H",
+        "Muñoz-Gómez S.A.",
+        "Zhao D.",
+        "Salas-Leiva D.E.",
+        "Shao J.D."
     ].sort((a, b) => b.length - a.length);
 
     const namesToBold = [
         "Roger A.J."
-
     ].sort((a, b) => b.length - a.length);
 
     const namesToBoldAndItalicize = [
         "bioRxiv",
         "Syst. Biol.",
-        "J. Cell Sci."
+        "J. Cell Sci.",
+        "Curr. Biol.",
+        "J. Euk. Microbiol.",
+        "Nat. Microbiol.",
+        "Nature",
+        "mBio",
+        "Mol. Phylogenet. Evol."
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
