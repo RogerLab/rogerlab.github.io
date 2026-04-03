@@ -29,6 +29,13 @@ document.addEventListener("DOMContentLoaded", () => {
             'Gallot-Lavallée L., Jerlström-Hultqvist J., Salas-Leiva D.E., Stairs C.W., Čepička I., Roger A.J. and Archibald J.M. (2023) Massive intein content in Anaeramoeba reveals new aspects of intein mobility in eukaryotes. Proc. Natl Acad. Sci. USA 120: e2306381120',
             'Muñoz-Gómez S.A., Cadena L.R., Gardiner A.T., Leger M.M., Sheikh S., Connell L.B., Bily T., Kopejtka K., Beatty J.T., Koblížek M., Roger A.J., Slamovits C.H., Lukeš J. and Hashimi H. (2023) Intracytoplasmic-membrane development in alphaproteobacteria involves the homolog of the mitochondrial crista-developing protein Mic60. Curr. Biol. 33:1099-1111',
             'Higuera A., Salas-Leiva D.E., Curtis B.A., Patiño L.H., Zhao D., Jerlström-Hultqvist J, Dlutek M., Muñoz M., Roger A.J., Ramírez J.D. (2023) Draft genomes of Blastocystis subtypes from human samples of Colombia. Parasites & Vectors 1:1-10.'
+        ],
+        2022: [
+            'Hess S., Williams S.K., Busch A., Irisarri I., Delwiche C.F., de Vries S., Darienko T., Roger A.J., Archibald J.M., Buschmann H., von Schwartzenberg K. and de Vries J. (2022) A phylogenomically informed five-order system for the closest relatives of land plants. Curr. Biol. 32:4473-4482.e7',
+            'Gerbracht J.V., Harding T., Simpson A.G.B., Roger A.J., Hess S. (2022) Comparative transcriptomics reveals the molecular toolkit used by an algivorous protist for cell wall perforation. Curr. Biol. 32:3374-3384. e5',
+            'Mathavarajah S., Vergunst K.L., Williams S.K., He R., Maliougina M., Habib E.B., Park M., Salsman J., Roy s., Braasch I. Roger A.J., Langelaan D.N. and Dellaire G. (2022) PML and PML-like exonucleases restrict retrotransposons in jawed vertebrates. Nucleic Acids Res. 51: 3185-3204',
+            'Youssef N., Susko E., Roger A.J. and Bielawski J.P. (2022) Evolution of amino acid propensities under stability-mediated epistasis.  Mol. Biol. Evol. 39:msac030 <a href=https://doi.org/10.1093/molbev/msac030>https://doi.org/10.1093/molbev/msac030</a>',
+            'Muñoz-Gómez S.A., Susko E., Williamson K., Eme L., Slamovits C.H., Moreira D., López-García P. and Roger A.J. (2022) Site-and-branch-heterogeneous analyses of an expanded dataset favors mitochondria as sister to known Alphaproteobacteria. Nat. Ecol. Evol. https://doi.org/10.1038/s41559-021-01638-2',
         ]
     };
 
@@ -44,7 +51,8 @@ document.addEventListener("DOMContentLoaded", () => {
         "Shao J.D.",
         "Daneau J.",
         "Jerlström-Hultqvist J.",
-        "Gallot-Lavallée L."
+        "Gallot-Lavallée L.",
+        "Harding T."
     ].sort((a, b) => b.length - a.length);
 
     const namesToBold = [
@@ -65,7 +73,9 @@ document.addEventListener("DOMContentLoaded", () => {
         "Nat. Communications",
         "Micro. Gen.",
         "Proc. Natl Acad. Sci.",
-        "Parasites & Vectors"
+        "Parasites & Vectors",
+        "Nucleic Acids Res.",
+        "Nat. Ecol. Evol."
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
