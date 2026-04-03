@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
             'Yi. Z., Williams S.K., Leger M.M., Brask N., Salas-Leiva D., Silberman J.D., Eglit Y., Simpson A.G.B., Roger A.J., Stairs C.W. (2026) Divergent trajectories for anaerobic mitochondrial evolution in breviate protists. bioRxiv: <a href="https://doi.org/10.64898/2026.01.29.702055">https://doi.org/10.64898/2026.01.29.702055</a>',
             'Susko E., Lanfear R. and Roger A.J. (2026) Comparing partition and mixture models with Akaike Information Criteria. Syst. Biol. <a href=https://doi.org/10.1093/sysbio/syag013>https://doi.org/10.1093/sysbio/syag013</a>',
             'Raas W.D., Van Hooff J.J.E., Lukeš J., Richards T.A., Roger A.J., Wickstead B., Kops G.J.P.L., Snel B. and Tromer E.C. (2026) The LECA had a conventional kinetochore and the kinetoplastid kinetochore is a derived feature—a critical evaluation of Akiyoshi, 2025. J. Cell Sci. 139: jcs264452',
-            'McCarthy C.G.P., Susko E. and Roger A.J. (2026) Modeling site-and-branch heterogeneity with GFmix.  Syst. Biol. (under review) see: <a href=https://www.biorxiv.org/content/10.1101/2025.08.07.669136v1.abstract>https://www.biorxiv.org/content/10.1101/2025.08.07.669136v1.abstract</a>',
+            'McCarthy C.G.P., Susko E. and Roger A.J. (2026) Modeling site-and-branch heterogeneity with GFmix.  Syst. Biol. (under review) see: <a href=https://www.biorxiv.org/content/10.1101/2025.08.07.669136v1.abstract>https://www.biorxiv.org/content/10.1101/2025.08.07.669136v1.abstract</a>'
         ],
         2025: [
             'Sibbald S.J., Lawton M., Maclean C., Roger A.J. and Archibald J.M. (2025) Pangenome biology and evolution in harmful algal-bloom-forming pelagophytes. Curr. Biol. (in press)',
@@ -14,6 +14,14 @@ document.addEventListener("DOMContentLoaded", () => {
             'Williamson K., Eme L., Baños H., McCarthy C.G.P., Susko E., Kamikawa R., Orr R.J.S., Muñoz-Gómez S.A., Minh B.Q., Simpson A.G.B., and Roger A.J. (2025) A robustly rooted tree of eukaryotes reveals their excavate ancestry. Nature 640: 974-981 <a href=https://doi.org/10.1038/s41586-025-08709-5>https://doi.org/10.1038/s41586-025-08709-5</a>',
             'Zhao D., Salas-Leiva D.E., Williams S.K., Dunn K., Shao J.D., and Roger A.J. (2025) Eukfinder: a pipeline to retrieve microbial eukaryote genomes from metagenomic sequencing data. mBio 16:e00699-25 <a href=https://10.1128/mbio.00699-25>https://10.1128/mbio.00699-25</a>',
             'Pánek T., Tice A.K., Corre P., Hrubá P., Žihala D., Kamikawa R., Yazaki E., Shiratori T., Kume K. Hashimoto T., Ishida K., Hradilová M., Silberman J.D., Roger A.J., Inagaki Y., Eliás M., Brown M.W., Čepička I.  (2025) An expanded phylogenomic analysis of Heterolobosea reveals the deep relationships, non-canonical genetic codes, and cryptic flagellate stages in the group. Mol. Phylogenet. Evol. 204:108289'
+        ],
+        2024: [
+            'Baños H., Wong T. K.F., Daneau J., Susko E., Minh B.Q., Lanfear R., Brown M.W., Eme L. and Roger A.J. (2024) GTRpmix: A linked general-time reversible model for profile mixture models. Mol. Biol. Evol. msae174 <a href=https://doi.org/10.1093/molbev/msae174>https://doi.org/10.1093/molbev/msae174</a>',
+            'Jerlström-Hultqvist J., Gallot-Lavallée L., Salas-Leiva D.E., Curtis B.A., Záhonová K., Čepička I., Stairs C.W., Pipaliya S., Dacks J.B., Archibald J.M. and Roger A.J. (2024) A unique symbiosome in an anaerobic single-celled eukaryote. Nat. Communications <a href=https://doi.org/10.1038/s41467-024-54102-7>https://doi.org/10.1038/s41467-024-54102-7</a>',
+            'Williams S.K., Jerlstrom-Hultqvist, J., Eglit, Y., Salas-Leiva D.E., Curtis, B. Orr, R.J.S., Stairs, C.W., Simpson, A.G.B, and Roger A. J. (2024) Extreme mitochondrial reduction in a newly-discovered group of free-living protists. Nat. Communications 15: 6805 (2024). <a href=https://doi.org/10.1038/s41467-024-50991-w>https://doi.org/10.1038/s41467-024-50991-w</a>',
+            'Eglit Y., Williams S.K., Roger A.J. and Simpson A.G.B. (2024) Characterization of Skoliomonas gen. nov., a haloalkaliphilic anaerobe related to barthelonids (Metamonada).  J. Euk. Microbiol. <a href=https://doi.org/jeu.13048>https://doi.org/jeu.13048</a>',
+            'Baker B., Gutiérrez-Preciado A., Rodriguez del Rio A., McCarthy C.G.P, López-Garcia P., Huerta-Cepas J., Susko E., Roger A.J., Eme L. and Moreira D. (2024) Expanded phylogeny of extremely halophilic archaea shows multiple independent adaptations to hypersaline environments. Nat. Microbiol. 9: 964-975',
+            'Baños H., Susko E. and Roger A.J. (2024) Is over-parameterization a problem for profile mixture models? Syst. Biol. 73:53-75'
         ]
     };
 
@@ -26,7 +34,10 @@ document.addEventListener("DOMContentLoaded", () => {
         "Muñoz-Gómez S.A.",
         "Zhao D.",
         "Salas-Leiva D.E.",
-        "Shao J.D."
+        "Shao J.D.",
+        "Daneau J.",
+        "Jerlström-Hultqvist J.",
+        "Gallot-Lavallée L."
     ].sort((a, b) => b.length - a.length);
 
     const namesToBold = [
@@ -42,7 +53,9 @@ document.addEventListener("DOMContentLoaded", () => {
         "Nat. Microbiol.",
         "Nature",
         "mBio",
-        "Mol. Phylogenet. Evol."
+        "Mol. Phylogenet. Evol.",
+        "Mol. Biol. Evol.",
+        "Nat. Communications"
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
