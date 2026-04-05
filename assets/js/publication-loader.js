@@ -98,7 +98,16 @@ document.addEventListener("DOMContentLoaded", () => {
             'Gawryluk R., Eme L. and Roger A.J. (2015) Gene fusion, fission, lateral transfer, and loss: not-so-rare events in the evolution of eukaryotic ATP citrate lyase. Mol. Phylogenet. Evol. 91: 12-16.',
             'Leger M.M., Petrů M., Žárský V., Eme L., Vlček Č., Harding T., Lang B.F., Eliáš M., Doležal P. and Roger A.J. (2015) An ancestral bacterial division system is widespread in eukaryotic mitochondria. Proc. Natl. Acad. Sci. USA 112: 10239-46.',
             'Nývltová E., Stairs C.W., Hrdý I., Rídl J., Mach J., Pačes J., Roger A.J. and Tachezy J. (2015) Lateral gene transfer and gene duplication played a key role in the evolution of Mastigamoeba balamuthi hydrogenosomes. Mol. Biol. Evol. 32: 1039-55.'
-
+        ],
+        2014: [
+            'Eme L., Sharpe S.C., Brown M.W. and Roger A.J. (2014) On the age of eukaryotes:  evaluating evidence from fossils and molecular clocks. Cold Spring Harb. Perspect. Biol. 6: pii: a016139.',
+            'Klimeš V., Gentekaki E., Roger A.J., and Eliáš M. (2014) A large number of nuclear genes in the human parasite Blastocystis require mRNA polyadenylation to create functional termination codons. Genome Biol. Evol. 6: 1956-1961.',
+            'Tanifuji G., Onodera N.T., Brown M.W., Curtis B.A., Roger A.J., Wong G., Melkonian M. and Archibald J.M. (2014) Nucleomorph and plastid genome sequences of the chlorarachniophyte Lotharella oceanica: convergent reductive evolution and frequent recombination in nucleomorph-bearing algae. BMC Genomics 15: 374.',
+            'Gentekaki E., Kolisko M., Boscaro V., Bright K.J., Dini F., Di Giuseppe G., Gong Y., Miceli C., Modeo L., Molestina R.E,. Petroni G., Pucciarelli S., Roger A.J., Strom, S.L. and Lynn, DH. (2014)  Large-scale phylogenomic analysis reveals the phylogenetic position of the problematic taxon Protocruzia and unravels the deep phylogenetic affinities of the ciliate lineages. Mol. Phylogenet. Evol. 78C: 36-42.',
+            'Stairs C.W., Eme L., Brown M.W., Mutsaers C., Susko E. Dellaire G., Soanes D.M., van der Giezen M. and Roger A.J. (2014) A SUF Fe-S cluster biogenesis system in the mitochondrion-related organelles of the anaerobic protist Pygsuia. Curr. Biol. 24: 1176-1186.',
+            'Wang H.-C., Susko E. and Roger A.J. (2014) An amino acid substitution-selection model adjusts residue fitness to improve phylogenetic estimation. Mol. Biol. Evol. 31: 779-792.',
+            'Kamikawa R., Kolisko M., Nishimura Y., Yabuki A., Brown M.W., Ishikawa S.A., Ishida K., Roger A.J., Hashimoto T. and Inagaki Y. (2014) Gene content evolution in discobid mitochondria deduced from the phylogenetic position and complete mitochondrial genome of Tsukubamonas globosa. Genome Biol. Evol. 6:306-15.',
+            'Tsaousis A.D., Gentekaki E., Eme L., Gaston D. and Roger A.J. (2014) Evolution of the cytosolic iron-sulfur cluster assembly machinery in Blastocystis sp. and other microbial eukaryotes. Eukaryot. Cell 13: 143-153.',
         ]
     };
 
@@ -129,7 +138,9 @@ document.addEventListener("DOMContentLoaded", () => {
         "Kolisko M.",
         "Gawryluk R.",
         "Brown M.W.",
-        "Gentekaki E."
+        "Gentekaki E.",
+        "Sharpe S.C.",
+        "Tsaousis A.D."
     ].sort((a, b) => b.length - a.length);
 
     const namesToBold = [
@@ -157,6 +168,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "PLoS Biol.",
         "BMC Biol.",
         "BMC Evol. Biol.",
+        "BMC Genomics",
         "J. Theor. Biol.",
         "Int. J. Mol.",
         "eLife",
@@ -164,11 +176,13 @@ document.addEventListener("DOMContentLoaded", () => {
         "Nature Ecol. Evol.",
         "Roy. Soc. Open Sci.",
         "Front Microbiol.",
-        "B. Biol. Sci."
+        "B. Biol. Sci.",
+        "Cold Spring Harb. Perspect. Biol.",
+        "Eukaryot. Cell"
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
-    const endYear = 2015;
+    const endYear = 2014;
     const container = document.getElementById("publications-by-year");
 
     function escapeRegExp(string) {
