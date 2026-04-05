@@ -67,6 +67,17 @@ document.addEventListener("DOMContentLoaded", () => {
             'Heiss A.A., Kolisko M., Ekelund F., Brown M.W., Roger A.J. and Simpson A.G. (2018) Combined morphological and phylogenomic re-examination of malawimonads, a critical taxon for inferring the evolutionary history of eukaryotes. Roy. Soc. Open Sci. 5: 171707.',
             'Brown M.W., Heiss A.A., Kamikawa R., Inagaki Y., Yabuki A., Tice A.K., Shiratori T., Ishida K.I., Hashimoto T., Simpson A.G.B. and Roger A.J. (2018) Phylogenomics places orphan protistan lineages in a novel eukaryotic super-group. Genome Biol. Evol. 10: 427-433.',
             'Wang H.-C., Minh B.Q., Susko E. and Roger A.J. (2018) Modeling site heterogeneity with posterior mean site frequency profiles accelerates accurate phylogenomic estimation. Syst. Biol. 67: 216-235.'
+        ],
+        2017: [
+            'Gentekaki E., Curtis B.A., Stairs C.W., Klimes V., Elias M., Salas-Leiva D.E., Herman E.K., Eme L., Arias M.C., Henrissat B., Hilliou F., Klute M.J., Suga H., Malik S.-B., Pightling A.W., Kolisko M., Rachubinski R.A., Schlacht A., Soanes D.M., Tsaousis A.D., Archibald J.M., Ball S.G., Dacks J.B., Clark C.G., van der Giezen M. and Roger A.J. (2017) Extreme genome diversity in the hyper-prevalent parasitic eukaryote Blastocystis. PLoS Biol. 15: S.',
+            'Harding T., Roger A.J. and Simpson A.G.B. (2017) Adaptations to high salt in a halophilic protist: differential expression and gene acquisitions through duplications and gene transfers. Front Microbiol. 8: 944.',
+            'Kang S., Tice A.K., Spiegel F.W., Silberman J.D., Pánek T., Cepicka I., Kostka M., Kosakyan A., Alcântara D.M., Roger A.J., Shadwick L.L., Smirnov A., Kudryavstev A., Lahr D.J.G. and Brown M.W. (2017) Between a pod and a hard test: the deep evolution of amoebae. Mol. Biol. Evol. 34: 2258-2270.',
+            'Takishita K., Chikaraishi Y., Tanifuji G., Ohkouchi N., Hashimoto T., Fujikura K. and Roger A.J. (2017) Microbial eukaryotes that lack sterols. J. Euk. Microbiol. 64: 897-900.',
+            'Yang J., Harding T., Kamikawa R., Simpson A.G.B. and Roger A.J. (2017) Mitochondrial genome evolution and a novel RNA editing system in deep-branching heteroloboseids. Genome Biol. Evol. 9: 1161-1174.',
+            'Leger M.M., Kolisko M., Kamikawa R., Stairs C.W., Kume K., Čepicka I., Silberman J.D., Andersson J.O., Xu F., Yabuki A., Eme L., Zhang Q., Takishita K., Inagaki Y., Simpson A.G.B., Hashimoto T. and Roger A.J. (2017) Organelles that illuminate the origins of Trichomonas hydrogenosomes and Giardia mitosomes. Nature Ecol. Evol. 1: 0092.',
+            'Eme L., Gentekaki E., Curtis B., Archibald J.M. and Roger A.J. (2017) Lateral gene transfer in the adaptation of the anaerobic parasite Blastocystis to the gut. Curr. Biol. 27: 807-820.',
+            'Pánek T., Žihala D., Sokol M., Derelle R., Klimeš V., Hradilová M., Zadrobílková E., Susko E., Roger A.J., Cepǐcka I. and Eliáš M. (2017). Nuclear genetic codes with a different meaning of the UAG and the UAA condon. BMC Biol. 15: 8.',
+            'Muñoz-Gómez S.A., Wideman J.G., Roger A.J. and Slamovits C.H. (2017) The origin of mitochondrial cristae from alphaproteobacteria. Mol. Biol. Evol. 34: 943-956.'
         ]
     };
 
@@ -90,7 +101,10 @@ document.addEventListener("DOMContentLoaded", () => {
         "Eme L.",
         "Wang H.-C.",
         "Sibbald S.J.",
-        "Curtis B.A."
+        "Curtis B.A.",
+        "Curtis B.",
+        "Yang J.",
+        "Kolisko M."
     ].sort((a, b) => b.length - a.length);
 
     const namesToBold = [
@@ -121,7 +135,8 @@ document.addEventListener("DOMContentLoaded", () => {
         "eLife",
         "Genome Biol. Evol.",
         "Nature Ecol. Evol.",
-        "Roy. Soc. Open Sci."
+        "Roy. Soc. Open Sci.",
+        "Front Microbiol."
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
