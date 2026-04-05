@@ -78,6 +78,19 @@ document.addEventListener("DOMContentLoaded", () => {
             'Eme L., Gentekaki E., Curtis B., Archibald J.M. and Roger A.J. (2017) Lateral gene transfer in the adaptation of the anaerobic parasite Blastocystis to the gut. Curr. Biol. 27: 807-820.',
             'Pánek T., Žihala D., Sokol M., Derelle R., Klimeš V., Hradilová M., Zadrobílková E., Susko E., Roger A.J., Cepǐcka I. and Eliáš M. (2017). Nuclear genetic codes with a different meaning of the UAG and the UAA condon. BMC Biol. 15: 8.',
             'Muñoz-Gómez S.A., Wideman J.G., Roger A.J. and Slamovits C.H. (2017) The origin of mitochondrial cristae from alphaproteobacteria. Mol. Biol. Evol. 34: 943-956.'
+        ],
+        2016: [
+            'Novák L., Zubáčová Z., Karnkowska A., Kolisko M., Hroudová M., Stairs C.W., Simpson A.G., Keeling P.J., Roger A.J., Čepička I. and Hampl V. (2016) Arginine deiminase pathway enzymes: evolutionary history in metamonads and other eukaryotes. BMC Evol. Biol. 16: 197.',
+            'Pyrih J., Martincova E., Kolísko M., Stojanovová D., Basu S., Harant K., Haindrich A.C., Lukeš J., Roger A.J. and Tachezy J. (2016) Minimal cytosolic iron-sulfur cluster assembly machinery of Giardia intestinalis is partially associated with mitosomes. Mol. Microbiol. 102: 701-714.',
+            'Wang H., Susko E. and Roger A.J. (2016) Split-specific bootstrap measures for quantifying phylogenetic stability and the influence of taxon selection. Mol. Phylogenet. Evol. 105: 114-125.',
+            'Gawryluk R., Kamikawa R., Stairs C.W., Brown M.W., Silberman J.D. and Roger A.J. (2016) The earliest stages of mitochondrial adaptation to low oxygen revealed in a novel rhizarian. Curr. Biol. 26: 2729-2738.',
+            'Xu F., Jerlström-Hultqvist J., Kolisko M., Simpson A.G., Roger A.J., Svärd S.G. and Andersson J.O. (2016) On the reversibility of parasitism: adaptation to a free-living lifestyle via gene acquisitions in the diplomonad Trepomonas sp. PC1. BMC Biol. 14: 62. [Erratum in BMC Biol. (2016) 14: 77].',
+            'Leger M.M., Eme L., Hug L.A. and Roger A.J. (2016) Novel hydrogenosomes in the microaerophilic jakobid Stygiella incarcerata. Mol. Biol. Evol. 33: 2318-2336. [Corrigendum correction in Mol. Biol. Evol. Feb. 2, 2017; doi: <a href=https://doi.org/10.1093/molbev/msx059>10.1093/molbev/msx059</a>].',
+            'Harding T., Brown M.W., Simpson A.G.B. and Roger A.J. (2016) Osmoadaptative strategy and its molecular signature in obligately halophilic heterotrophic protists. Genome Biol. Evol. 8: 2241-2258.',
+            'Hamann E., Gruber-Vodicka H., Kleiner M., Tegetmeyer H., Riedel D., Littmann S., Chen J., Milucka J., Viehweger B., Becker K., Dong X., Stairs C.W., Hinrichs K., Brown M.W., Roger A.J. and Strous M. (2016) Environmental Breviatea harbor mutualistic Arcobacter epibionts. Nature 534: 254-258.',
+            'Karnkowska A., Vacek V., Zubáčová Z., Treitli S.C., Petrželková R., Eme L., Novák L., Žárský V., Barlow L.D., Herman E.K., Soukal P., Hroudová M., Doležal P., Stairs C.W., Roger A.J., Eliáš M., Dacks J.B., Vlček Č. and Hampl V. (2016) A eukaryote without a mitochondrial organelle. Curr. Biol. 26: 1274-1284.',
+            'Kamikawa R., Shiratori T., Ishida K., Miyashita H. and Roger A.J. (2016) Group II intron-mediated trans-splicing in the gene-rich mitochondrial genome of an enigmatic eukaryote, Diphylleia rotans. Genome Biol. Evol. 8: 458-466.',
+            'Pánek T., Zadrobílková E., Walker G., Brown M.W., Gentekaki E., Hroudová M., Kang S., Roger A.J., Tice A.K., Vlček Č. and Čepička I. (2016) First multigene analysis of Archamoebae robustly reveals its phylogeny and shows that Entamoebidae represents a deep lineage of the group. Mol. Phylogenet. Evol. 98: 41-51.'
         ]
     };
 
@@ -100,11 +113,15 @@ document.addEventListener("DOMContentLoaded", () => {
         "Hess S.",
         "Eme L.",
         "Wang H.-C.",
+        "Wang H.",
         "Sibbald S.J.",
         "Curtis B.A.",
         "Curtis B.",
         "Yang J.",
-        "Kolisko M."
+        "Kolisko M.",
+        "Gawryluk R.",
+        "Brown M.W.",
+        "Gentekaki E."
     ].sort((a, b) => b.length - a.length);
 
     const namesToBold = [
@@ -122,6 +139,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "mBio",
         "Mol. Phylogenet. Evol.",
         "Mol. Biol. Evol.",
+        "Mol. Microbiol.",
         "Nat. Communications",
         "Micro. Gen.",
         "Proc. Natl Acad. Sci.",
@@ -130,6 +148,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "Nat. Ecol. Evol.",
         "PLoS Biol.",
         "BMC Biol.",
+        "BMC Evol. Biol.",
         "J. Theor. Biol.",
         "Int. J. Mol.",
         "eLife",
@@ -140,7 +159,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
-    const endYear = 1993;
+    const endYear = 2016;
     const container = document.getElementById("publications-by-year");
 
     function escapeRegExp(string) {
