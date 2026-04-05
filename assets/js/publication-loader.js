@@ -108,6 +108,17 @@ document.addEventListener("DOMContentLoaded", () => {
             'Wang H.-C., Susko E. and Roger A.J. (2014) An amino acid substitution-selection model adjusts residue fitness to improve phylogenetic estimation. Mol. Biol. Evol. 31: 779-792.',
             'Kamikawa R., Kolisko M., Nishimura Y., Yabuki A., Brown M.W., Ishikawa S.A., Ishida K., Roger A.J., Hashimoto T. and Inagaki Y. (2014) Gene content evolution in discobid mitochondria deduced from the phylogenetic position and complete mitochondrial genome of Tsukubamonas globosa. Genome Biol. Evol. 6:306-15.',
             'Tsaousis A.D., Gentekaki E., Eme L., Gaston D. and Roger A.J. (2014) Evolution of the cytosolic iron-sulfur cluster assembly machinery in Blastocystis sp. and other microbial eukaryotes. Eukaryot. Cell 13: 143-153.',
+        ],
+        2013: [
+            'Suga H., Chen Z., de Mendoza A.,  Sebé-Pedrós A., Brown M.W., Kramer E., Carr M., Kerner P., Vervoort M., Sánchez-Pons N., Torruella G., Derelle R., Manning G., Lang B.F., Russ C., Haas B.J., Roger A.J., Nusbaum C. and Ruiz-Trillo I. (2013) The Capsaspora genome reveals a complex unicellular prehistory of animals. Nat. Communications 4: 2325.',
+            'Brown M.W., Sharpe S.C., Silberman J.D., Heiss A.A., Lang B.F., Simpson A.G. and Roger A.J. (2013) Phylogenomics demonstrates that breviate flagellates are related to opisthokonts and apusomonads. Proc. Roy. Soc. Biol. Sci. 280: 20131755.',
+            'Leger M.M., Gawryluk R.M., Gray M.W. and Roger A.J. (2013) Evidence for a hydrogenosomal-type ATP generation pathway in Acanthamoeba castellanii. PLoS ONE 8: e69532.',
+            'Gaston D. and Roger A.J. (2013) Functional divergence and convergent evolution in the plastid-targeted glyceraldehyde-3-phosphate dehydrogenases of diverse eukaryotic algae. PLoS ONE 8: e7039.',
+            'Kamikawa R., Brown M.W., Nishimura Y., Sako Y., Heiss A.A., Yubuki N., Gawryluk R., Simpson A.G.B., Roger A.J., Hashimoto T. and Inagaki Y. (2013) Parallel re-modeling of EF-1 function: divergent EF-1 genes co-occur with EFL genes in diverse distantly related eukaryotes. BMC Evol. Biol. 13:131.',
+            'Wang H.-C., Susko E. and Roger A.J. (2013) The site-wise log-likelihood score is a good predictor of genes under positive selection. J. Mol. Evol. 76: 280-294.',
+            'O’Malley M.A., Simpson A.G.B. and Roger A.J. (2013) The other eukaryotes in light of evolutionary protistology. Biol. Philos. 28: 299-330.',
+            'Harding T., Brown M.W., Plotnikov A., Selivanova E., Park J.S., Gunderson J.H., Baumgartner M., Silberman J.D., Roger A.J. and Simpson A.G.B. (2013) Amoeba stages in the deepest branching heteroloboseans, including Pharyngomonas: Evolutionary and systematic implications. Protist 164: 272-286.',
+            'Susko E. and Roger A.J. (2013) Problems with estimation of ancestral frequencies under stationary models. Syst. Biol. 62: 330-338.'
         ]
     };
 
@@ -137,10 +148,12 @@ document.addEventListener("DOMContentLoaded", () => {
         "Yang J.",
         "Kolisko M.",
         "Gawryluk R.",
+        "Gawryluk R.M.",
         "Brown M.W.",
         "Gentekaki E.",
         "Sharpe S.C.",
-        "Tsaousis A.D."
+        "Tsaousis A.D.",
+        "Gaston D."
     ].sort((a, b) => b.length - a.length);
 
     const namesToBold = [
@@ -178,11 +191,16 @@ document.addEventListener("DOMContentLoaded", () => {
         "Front Microbiol.",
         "B. Biol. Sci.",
         "Cold Spring Harb. Perspect. Biol.",
-        "Eukaryot. Cell"
+        "Eukaryot. Cell",
+        "Proc. Roy. Soc. Biol. Sci.",
+        "PLoS ONE",
+        "J. Mol. Evol.",
+        "Biol. Philos.",
+        "Protist"
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
-    const endYear = 2014;
+    const endYear = 2013;
     const container = document.getElementById("publications-by-year");
 
     function escapeRegExp(string) {
