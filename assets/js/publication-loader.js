@@ -132,41 +132,6 @@ document.addEventListener("DOMContentLoaded", () => {
         ]
     };
 
-    const namesToUnderline = [
-        "Williams S.K.",
-        "McCarthy C.G.P.",
-        "Harada R.",
-        "Williamson K.",
-        "Baños H",
-        "Muñoz-Gómez S.A.",
-        "Zhao D.",
-        "Salas-Leiva D.E.",
-        "Shao J.D.",
-        "Daneau J.",
-        "Jerlström-Hultqvist J.",
-        "Gallot-Lavallée L.",
-        "Harding T.",
-        "Leger M.M.",
-        "Stairs C.W.",
-        "Hess S.",
-        "Eme L.",
-        "Wang H.-C.",
-        "Wang H.",
-        "Sibbald S.J.",
-        "Curtis B.A.",
-        "Curtis B.",
-        "Yang J.",
-        "Kolisko M.",
-        "Gawryluk R.",
-        "Gawryluk R.M.",
-        "Brown M.W.",
-        "Gentekaki E.",
-        "Sharpe S.C.",
-        "Tsaousis A.D.",
-        "Gaston D.",
-        "Zou L."
-    ].sort((a, b) => b.length - a.length);
-
     const namesToBold = [
         "Roger A.J."
     ].sort((a, b) => b.length - a.length);
@@ -234,10 +199,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
         result = wrapMatches(result, namesToBoldAndItalicize, phrase =>
             `<strong><em>${phrase}</em></strong>`
-        );
-
-        result = wrapMatches(result, namesToUnderline, phrase =>
-            `<u>${phrase}</u>`
         );
 
         result = wrapMatches(result, namesToBold, phrase =>
