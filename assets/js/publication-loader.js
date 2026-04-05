@@ -119,6 +119,16 @@ document.addEventListener("DOMContentLoaded", () => {
             'O’Malley M.A., Simpson A.G.B. and Roger A.J. (2013) The other eukaryotes in light of evolutionary protistology. Biol. Philos. 28: 299-330.',
             'Harding T., Brown M.W., Plotnikov A., Selivanova E., Park J.S., Gunderson J.H., Baumgartner M., Silberman J.D., Roger A.J. and Simpson A.G.B. (2013) Amoeba stages in the deepest branching heteroloboseans, including Pharyngomonas: Evolutionary and systematic implications. Protist 164: 272-286.',
             'Susko E. and Roger A.J. (2013) Problems with estimation of ancestral frequencies under stationary models. Syst. Biol. 62: 330-338.'
+        ],
+        2012: [
+            'Tsaousis A.D., Ollagnier de Choudens S., Gentekaki E., Long S., Gaston D., Stechmann A., Vinella D., Py B., Fontecave M., Barras F., Lukeš J. and Roger A.J. (2012) Evolution of Fe/S cluster biogenesis in the anaerobic parasite Blastocystis. Proc. Natl. Acad. Sci. USA 109: 10426-10431.',
+            'Brown M.W., Kolisko M., Silberman J.D. and Roger A.J. (2012) Aggregative multicellularity evolved independently in the eukaryotic supergroup Rhizaria. Curr. Biol. 22:1123-1127.',
+            'Liberles D., Teichmann S., Bahar I., Bastolla U., Bloom J., Bornberg-Bauer E., Colwell L., de Koning J., Dokholyan N., Echave J., Elofsson A., Gerloff D., Goldstein R., Grahnen J., Holder M., Lakner C., Lartillot N., Lovell S., Naylor G., Perica T., Pollock D., Pupko T., Regan L., Roger A.J., Rubinstein N., Shakhnovich E., Sjölander K., Sunyaev S., Teufel A., Thorne J., Thornton J., Weinreich D., Whelan S. (2012) The interface of protein structure, protein biophysics, and molecular evolution. Protein Sci. 21:769-785.',
+            'Zou L., Susko E., Field C. and Roger A.J. (2012) Fitting nonstationary general-time-reversible models to obtain edge-lengths and frequencies for the Barry-Hartigan Model. Syst. Biol. 61: 927-40.',
+            'Takishita K., Kolisko M., Komatsuzaki H., Yabuki A., Inagaki Y., Cepicka I., Smejkalová P., Silberman J.D., Hashimoto T., Roger A.J. and Simpson A.G. (2012) Multigene phylogenies of diverse Carpediemonas-like organisms identify the closest relatives of \'Amitochondriate\' Diplomonads and Retortamonads. Protist 163: 344-55.',
+            'Susko E. and Roger A.J. (2012) The probability of correctly resolving a split as an experimental design criterion in phylogenetics. Syst. Biol. 61: 811-821.',
+            'Takishita K., Chikaraishi Y., Leger M.M., Kim E., Yabuki A., Ohkouchi N. and Roger A.J. (2012) Lateral transfer of tetrahymenol-synthesizing genes has allowed multiple diverse eukaryote lineages to independently adapt to environments without oxygen. Biol. Direct 7: 5',
+            'Torruella G., Derelle R., Paps J., Lang B.F., Roger A.J., Shalchian-Tabrizi K. and Ruiz-Trillo I. (2012) Phylogenetic relationships within the Opisthokonta based on phylogenomic analyses of conserved single copy protein domains. Mol. Biol. Evol. 29: 531-544.'
         ]
     };
 
@@ -153,7 +163,8 @@ document.addEventListener("DOMContentLoaded", () => {
         "Gentekaki E.",
         "Sharpe S.C.",
         "Tsaousis A.D.",
-        "Gaston D."
+        "Gaston D.",
+        "Zou L."
     ].sort((a, b) => b.length - a.length);
 
     const namesToBold = [
@@ -196,11 +207,13 @@ document.addEventListener("DOMContentLoaded", () => {
         "PLoS ONE",
         "J. Mol. Evol.",
         "Biol. Philos.",
-        "Protist"
+        "Protist",
+        "Protein Sci.",
+        "Biol. Direct"
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
-    const endYear = 2013;
+    const endYear = 2012;
     const container = document.getElementById("publications-by-year");
 
     function escapeRegExp(string) {
