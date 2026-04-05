@@ -56,6 +56,17 @@ document.addEventListener("DOMContentLoaded", () => {
             'Hess S., Eme L., Roger A.J. and Simpson A.G.B. (2019) A natural toroidal microswimmer propelled by a rotary eukaryotic flagellum. Nat. Microbiol. 4: 1620-1626.',
             'Wang H.-C., Susko E. and Roger A.J. (2019) The relative importance of modeling site pattern heterogeneity versus partition-wise heterotachy in phylogenomic inference. Syst. Biol. 68: 1003-1019.',
             'Muñoz-Gómez S.A., Hess S., Burger G., Lang B.F., Susko E., Slamovits C.H. and Roger A.J. (2019) An updated phylogeny of the Alphaproteobacteria reveals that the parasitic Rickettsiales and Holosporales have independent origins. eLife, Feb. 25; 8. pii: e42535.'
+        ],
+        2018: [
+            'Cenci U., Sibbald S.J., Curtis B.A., Kamikawa R., Eme L., Moog D., Henrissat B., Maréchal E., Chabi M., Djemiel C., Roger A.J., Kim E. and Archibald J.M. (2018) Nuclear genome sequence of the plastid-lacking cryptomonad Goniomonas avonlea provides insights in the evolution of secondary plastids. BMC Biol. 16: 137.',
+            'Pyrihová E., Motycková A., Voleman L., Wandyszewska N., Fišer R., Seydlová G., Roger A.J., Kolísko M. and Doležal P. (2018) A single tim translocase in the mitosomes of Giardia intestinalis illustrates convergence of protein import machines in anaerobic eukaryotes. Genome Biol. Evol. 10: 2813-2822.',
+            'Lax G., Eglit Y., Eme L., Bertrand E.M., Roger A.J. and Simpson A.G.B. (2018) Hemimastigophora is a novel supra-kingdom-level lineage of eukaryotes. Nature 564: 410-414.',
+            'Roger A.J. and Susko E. (2018) Molecular clocks provide little information to date methanogenic archaea. Nature Ecol. Evol. 2: 1676-1677.',
+            'Stairs C.W., Eme L., Muñoz-Gómez S., Cohen A., Dellaire G., Shepherd J.N., Fawcett J.P. and Roger A.J. (2018) Microbial eukaryotes have adapted to hypoxia by horizontal acquisitions of a gene involved in rhodoquinone biosynthesis. eLife 7: e34292.',
+            'Susko E., Lincker L. and Roger A.J. (2018) Accelerated estimation of frequency classes in site-heterogeneous profile mixture models. Mol. Biol. Evol. 35: 1266-1283.',
+            'Heiss A.A., Kolisko M., Ekelund F., Brown M.W., Roger A.J. and Simpson A.G. (2018) Combined morphological and phylogenomic re-examination of malawimonads, a critical taxon for inferring the evolutionary history of eukaryotes. Roy. Soc. Open Sci. 5: 171707.',
+            'Brown M.W., Heiss A.A., Kamikawa R., Inagaki Y., Yabuki A., Tice A.K., Shiratori T., Ishida K.I., Hashimoto T., Simpson A.G.B. and Roger A.J. (2018) Phylogenomics places orphan protistan lineages in a novel eukaryotic super-group. Genome Biol. Evol. 10: 427-433.',
+            'Wang H.-C., Minh B.Q., Susko E. and Roger A.J. (2018) Modeling site heterogeneity with posterior mean site frequency profiles accelerates accurate phylogenomic estimation. Syst. Biol. 67: 216-235.'
         ]
     };
 
@@ -77,7 +88,9 @@ document.addEventListener("DOMContentLoaded", () => {
         "Stairs C.W.",
         "Hess S.",
         "Eme L.",
-        "Wang H.-C."
+        "Wang H.-C.",
+        "Sibbald S.J.",
+        "Curtis B.A."
     ].sort((a, b) => b.length - a.length);
 
     const namesToBold = [
@@ -105,7 +118,10 @@ document.addEventListener("DOMContentLoaded", () => {
         "BMC Biol.",
         "J. Theor. Biol.",
         "Int. J. Mol.",
-        "eLife"
+        "eLife",
+        "Genome Biol. Evol.",
+        "Nature Ecol. Evol.",
+        "Roy. Soc. Open Sci."
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
