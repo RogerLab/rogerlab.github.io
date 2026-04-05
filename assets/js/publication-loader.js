@@ -140,6 +140,13 @@ document.addEventListener("DOMContentLoaded", () => {
             'Wang H.-C., Susko E. and Roger A.J. (2011) Fast statistical tests for detecting heterotachy in protein evolution. Mol. Biol. Evol. 28: 2305-2315.',
             'Kamikawa R., Inagaki Y., Tokoro M., Roger A.J. and Hashimoto T. (2011) Split introns in the genome of a divergent eukaryote Giardia intestinalis are excised by spliceosome-mediated trans-splicing. Curr. Biol. 21: 311-315.',
             'Tsaousis A.D., Gaston D., Stechmann A., Walker P.B., Lithgow T. and Roger A.J. (2011) A functional Tom70 in the human parasite Blastocystis sp.: Implications for the evolution of the mitochondrial import apparatus. Mol. Biol. Evol. 28: 781-791.'
+        ],
+        2010: [
+            'Barberà M.J., Ruiz-Trillo I., Tufts J.Y.A., Bery A., Silberman J.D. and Roger A.J. (2010) Sawyeria marylandensis (Heterolobosea) has a hydrogenosome with novel metabolic properties. Eukaryot. Cell 9: 1913-1924.',
+            'Sebé-Pedros A., Roger A.J., Lang F.B., King N. and Ruiz-Trillo I. (2010) From the cover: Ancient origin of the integrin-mediated adhesion and signaling machinery.  Proc. Natl. Acad. Sci. USA 107: 10142-10147.',
+            'Baurain D., Brinkmann H., Petersen, J. Rodríguez-Ezpeleta N., Stechmann A., Demoulin V., Roger A.J., Burger G., Lang B.F. and Philippe H. (2010) Phylogenomic evidence for separate acquisition of plastids in cryptophytes, haptophytes and stramenopiles. Mol. Biol. Evol. 27: 1698-1709.',
+            'Kolisko M., Silberman J.D., Cepicka I., Yubuki N., Takishita K., Yabuki A., Leander B.S., Inouye I., Inagaki Y., Roger A.J. and Simpson A.G.B. (2010) A wide diversity of previously undetected free-living relatives of diplomonads isolated from marine/saline habitats. Env. Microbiol. 12: 2700-2710.',
+            'Hug L.A., Stechmann A. and Roger A.J. (2010) Phylogenetic distributions and histories of proteins involved in anaerobic pyruvate metabolism in eukaryotes. Mol. Biol. Evol. 27:311-324.'
         ]
     };
 
@@ -188,11 +195,12 @@ document.addEventListener("DOMContentLoaded", () => {
         "Biol. Direct",
         "Mobile Genet. Elements",
         "Commun. Integr. Biol.",
-        "Bioinformatics"
+        "Bioinformatics",
+        "Env. Microbiol."
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
-    const endYear = 2011;
+    const endYear = 2010;
     const container = document.getElementById("publications-by-year");
 
     function escapeRegExp(string) {
