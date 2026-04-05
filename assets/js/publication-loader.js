@@ -129,6 +129,17 @@ document.addEventListener("DOMContentLoaded", () => {
             'Susko E. and Roger A.J. (2012) The probability of correctly resolving a split as an experimental design criterion in phylogenetics. Syst. Biol. 61: 811-821.',
             'Takishita K., Chikaraishi Y., Leger M.M., Kim E., Yabuki A., Ohkouchi N. and Roger A.J. (2012) Lateral transfer of tetrahymenol-synthesizing genes has allowed multiple diverse eukaryote lineages to independently adapt to environments without oxygen. Biol. Direct 7: 5',
             'Torruella G., Derelle R., Paps J., Lang B.F., Roger A.J., Shalchian-Tabrizi K. and Ruiz-Trillo I. (2012) Phylogenetic relationships within the Opisthokonta based on phylogenomic analyses of conserved single copy protein domains. Mol. Biol. Evol. 29: 531-544.'
+        ],
+        2011: [
+            'Gaston D., Susko E. and Roger A.J. (2011) A phylogenetic mixture model for the identification of functionally divergent protein residues. Bioinformatics 27: 2655-2663.',
+            'Hampl V., Stairs C.W. and Roger A.J. (2011) The tangled past of eukaryotic enzymes involved in anaerobic metabolism. Mobile Genet. Elements 3: 71-74.',
+            'Kamikawa R., Inagaki Y., Roger A.J. and Hashimoto T. (2011) Splintrons in Giardia intestinalis:  Spliceosomal introns in a split form. Commun. Integr. Biol. 4: 454-456.',
+            'Long S., Changmai P., Tsaousis A.D., Skalický T., Verner Z., Wen Y.Z., Roger A.J. and Lukeš J. (2011) Stage-specific requirement for Isa1 and Isa2 proteins in the mitochondrion of Trypanosoma brucei and heterologous rescue by human and Blastocystis orthologues. Mol. Microbiol. 81: 1403-1418.',
+            'Stairs C.W., Roger A.J. and Hampl V. (2011) Eukaryotic pyruvate formate lyase and its activating enzyme were acquired laterally from a firmicute. Mol. Biol. Evol. 28: 2087-2099.',
+            'Zou L., Susko E., Field C. and Roger A.J. (2011) The Parameters of the Barry and Hartigan general Markov model are statistically nonidentifiable. Syst. Biol. 60: 872-875.',
+            'Wang H.-C., Susko E. and Roger A.J. (2011) Fast statistical tests for detecting heterotachy in protein evolution. Mol. Biol. Evol. 28: 2305-2315.',
+            'Kamikawa R., Inagaki Y., Tokoro M., Roger A.J. and Hashimoto T. (2011) Split introns in the genome of a divergent eukaryote Giardia intestinalis are excised by spliceosome-mediated trans-splicing. Curr. Biol. 21: 311-315.',
+            'Tsaousis A.D., Gaston D., Stechmann A., Walker P.B., Lithgow T. and Roger A.J. (2011) A functional Tom70 in the human parasite Blastocystis sp.: Implications for the evolution of the mitochondrial import apparatus. Mol. Biol. Evol. 28: 781-791.'
         ]
     };
 
@@ -174,11 +185,14 @@ document.addEventListener("DOMContentLoaded", () => {
         "Biol. Philos.",
         "Protist",
         "Protein Sci.",
-        "Biol. Direct"
+        "Biol. Direct",
+        "Mobile Genet. Elements",
+        "Commun. Integr. Biol.",
+        "Bioinformatics"
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
-    const endYear = 2012;
+    const endYear = 2011;
     const container = document.getElementById("publications-by-year");
 
     function escapeRegExp(string) {
