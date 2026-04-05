@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
         2023: [
             'Eglit Y., Shiratori T., Jerlström-Hultqvist J., Williamson K., Roger, A.J., Ishida K., and Simpson A.G.B. (2023) Meteora sporadica, a protist with incredible cell architecture, is related to Hemimastigophora. Curr. Biol. 34:451-459',
             'Záhonová K., Füssy Z., Stairs C.W., Leger M.M., Tachezy J., Čepička I., Roger A.J., and Hampl V. (2023) Comparative analysis of mitochondrion-related organelles in anaerobic amoebozoans. Micro. Gen. 11:00143',
-            'Gallot-Lavallée L., Jerlström-Hultqvist J., Salas-Leiva D.E., Stairs C.W., Čepička I., Roger A.J. and Archibald J.M. (2023) Massive intein content in Anaeramoeba reveals new aspects of intein mobility in eukaryotes. Proc. Natl Acad. Sci. USA 120: e2306381120',
+            'Gallot-Lavallée L., Jerlström-Hultqvist J., Salas-Leiva D.E., Stairs C.W., Čepička I., Roger A.J. and Archibald J.M. (2023) Massive intein content in Anaeramoeba reveals new aspects of intein mobility in eukaryotes. Proc. Natl. Acad. Sci. USA 120: e2306381120',
             'Muñoz-Gómez S.A., Cadena L.R., Gardiner A.T., Leger M.M., Sheikh S., Connell L.B., Bily T., Kopejtka K., Beatty J.T., Koblížek M., Roger A.J., Slamovits C.H., Lukeš J. and Hashimi H. (2023) Intracytoplasmic-membrane development in alphaproteobacteria involves the homolog of the mitochondrial crista-developing protein Mic60. Curr. Biol. 33:1099-1111',
             'Higuera A., Salas-Leiva D.E., Curtis B.A., Patiño L.H., Zhao D., Jerlström-Hultqvist J, Dlutek M., Muñoz M., Roger A.J., Ramírez J.D. (2023) Draft genomes of Blastocystis subtypes from human samples of Colombia. Parasites & Vectors 1:1-10.'
         ],
@@ -91,6 +91,14 @@ document.addEventListener("DOMContentLoaded", () => {
             'Karnkowska A., Vacek V., Zubáčová Z., Treitli S.C., Petrželková R., Eme L., Novák L., Žárský V., Barlow L.D., Herman E.K., Soukal P., Hroudová M., Doležal P., Stairs C.W., Roger A.J., Eliáš M., Dacks J.B., Vlček Č. and Hampl V. (2016) A eukaryote without a mitochondrial organelle. Curr. Biol. 26: 1274-1284.',
             'Kamikawa R., Shiratori T., Ishida K., Miyashita H. and Roger A.J. (2016) Group II intron-mediated trans-splicing in the gene-rich mitochondrial genome of an enigmatic eukaryote, Diphylleia rotans. Genome Biol. Evol. 8: 458-466.',
             'Pánek T., Zadrobílková E., Walker G., Brown M.W., Gentekaki E., Hroudová M., Kang S., Roger A.J., Tice A.K., Vlček Č. and Čepička I. (2016) First multigene analysis of Archamoebae robustly reveals its phylogeny and shows that Entamoebidae represents a deep lineage of the group. Mol. Phylogenet. Evol. 98: 41-51.'
+        ],
+        2015: [
+            'Torruella G., de Mendoza A., Grau-Bové X., Antó M., Chaplin M.A., Del Campo J., Eme L., Pérez-Cordón G., Whipps C.M., Nichols K.M., Paley R., Roger A.J., Sitjà-Bobadilla A., Donachie S. and Ruiz-Trillo I. (2015) Phylogenomics reveals convergent evolution of lifestyles in close relatives of animals and fungi. Curr. Biol. 25: 2404-2410.',
+            'Stairs C.W., Leger M.M. and Roger A.J. (2015) Diversity and origins of anaerobic metabolism in mitochondria and related organelles. Philos. Trans. R. Soc. Lond. B. Biol. Sci. 370: 20140326.',
+            'Gawryluk R., Eme L. and Roger A.J. (2015) Gene fusion, fission, lateral transfer, and loss: not-so-rare events in the evolution of eukaryotic ATP citrate lyase. Mol. Phylogenet. Evol. 91: 12-16.',
+            'Leger M.M., Petrů M., Žárský V., Eme L., Vlček Č., Harding T., Lang B.F., Eliáš M., Doležal P. and Roger A.J. (2015) An ancestral bacterial division system is widespread in eukaryotic mitochondria. Proc. Natl. Acad. Sci. USA 112: 10239-46.',
+            'Nývltová E., Stairs C.W., Hrdý I., Rídl J., Mach J., Pačes J., Roger A.J. and Tachezy J. (2015) Lateral gene transfer and gene duplication played a key role in the evolution of Mastigamoeba balamuthi hydrogenosomes. Mol. Biol. Evol. 32: 1039-55.'
+
         ]
     };
 
@@ -142,7 +150,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "Mol. Microbiol.",
         "Nat. Communications",
         "Micro. Gen.",
-        "Proc. Natl Acad. Sci.",
+        "Proc. Natl. Acad. Sci.",
         "Parasites & Vectors",
         "Nucleic Acids Res.",
         "Nat. Ecol. Evol.",
@@ -155,11 +163,12 @@ document.addEventListener("DOMContentLoaded", () => {
         "Genome Biol. Evol.",
         "Nature Ecol. Evol.",
         "Roy. Soc. Open Sci.",
-        "Front Microbiol."
+        "Front Microbiol.",
+        "B. Biol. Sci."
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
-    const endYear = 2016;
+    const endYear = 2015;
     const container = document.getElementById("publications-by-year");
 
     function escapeRegExp(string) {
