@@ -202,6 +202,16 @@ document.addEventListener("DOMContentLoaded", () => {
             'Blouin C., Butt D. and Roger A.J. (2004) Rapid evolution in conformational space: a study of loop regions in a ubiquitous GTP-binding domain. Prot. Sci. 13:608-616.',
             'Inagaki Y., Simpson A.G.B., Dacks J. and Roger A.J. (2004) Phylogenetic artifacts can be caused by leucine, serine and arginine codon usage heterogeneity: dinoflagellate plastid origins as a case study. Syst. Biol. 53:582-593',
             'Silberman J.D., Collins A.G., Gershwin L.-A., Johnson P.J. and Roger A.J. (2004) Ellobiopsidae of the genus Thallasomyces are alveolates. J. Euk. Microbiol. 51:246-252.'
+        ],
+        2003: [
+            'Simpson A.G.B. and Roger A.J. (2003) Protein phylogenies robustly resolve the deep-level relationships within Euglenozoa. Mol. Phylogenet. Evol. 30:201-212.',
+            'Susko E., Field C., Blouin C. and Roger A.J. (2003) Estimation of rates-across-sites distributions in phylogenetic substitution models. Syst. Biol. 52:594-603.',
+            'Dacks J.B., Davis L.A.M., Sjögren Å.M., Andersson J.O., Roger A.J. and Doolittle W.F. (2003) Evidence for Golgi bodies in proposed \'Golgi-lacking\' lineages. Proc. Roy. Soc. Lond. B 270 (Suppl. 2): S168-S171.',
+            'Shan Y., Milios E., Roger A., Blouin C. and Susko E. (2003) Automatic recognition of regions of intrinsically poor multiple alignment using machine learning. Proceedings of the 2003 IEEE Bioinformatics Conference (CSB2003), pp. 482-483.',
+            'Inagaki Y., Blouin C., Susko E., and Roger A.J. (2003) Assessing functional divergence in EF-1 α and its paralogs in eukaryotes and archaebacteria. Nucleic Acids Research 31:4227-4237.',
+            'Andersson J.O. and Roger A.J. (2003) Evolution of glutamate dehydrogenase genes: lateral gene transfer within and between prokaryotes and eukaryotes. BMC Evol. Biol. 3:13.',
+            'Andersson J.O., Sjögren Å.M., Davis L.A.M., Embley T.M. and Roger A.J. (2003) Phylogenetic analyses of diplomonad genes reveal frequent lateral gene transfers affecting eukaryotes. Curr. Biol. 13:94-104.',
+            'Blouin C., Boucher Y. and Roger A.J. (2003) Inferring functional constraints and divergence in protein families using 3D mapping of phylogenetic information. Nucleic Acids Res. 31: 790-797.'
         ]
     };
 
@@ -255,11 +265,14 @@ document.addEventListener("DOMContentLoaded", () => {
         "Evol. Bioinform.",
         "Biochem Biophys Res Commun.",
         "BMC Bioinf.",
-        "Prot. Sci."
+        "Prot. Sci.",
+        "Nucleic Acids Research",
+        "Proceedings of the 2003 IEEE Bioinformatics Conference (CSB2003)",
+        "Proc. Roy. Soc. Lond."
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
-    const endYear = 2004;
+    const endYear = 2003;
     const container = document.getElementById("publications-by-year");
 
     function escapeRegExp(string) {
