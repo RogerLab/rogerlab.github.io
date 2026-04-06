@@ -228,7 +228,8 @@ document.addEventListener("DOMContentLoaded", () => {
         ],
         2001: [
             'Morrison H.G., Roger A.J., Nystul T. G., Gillin F.D. and Sogin M.L. (2001) Giardia lamblia expresses a proteobacterial-like DnaK homolog. Mol. Biol. Evol. 18:530-541.',
-            'Edgcomb V.P.*, Roger A.J.*,  Simpson A.G.B., Kysela D.T. and Sogin M.L. (2001) Evolutionary relationships among "jakobid" flagellates as indicated by alpha- and beta-tubulin phylogenies. Mol. Biol. Evol. 18:514-522 (*co-first authors). '
+            'Edgcomb V.P.*, Roger A.J.*,  Simpson A.G.B., Kysela D.T. and Sogin M.L. (2001) Evolutionary relationships among "jakobid" flagellates as indicated by alpha- and beta-tubulin phylogenies. Mol. Biol. Evol. 18:514-522 (*co-first authors).',
+            'Klein M., Friedrich M., Roger A.J., Hugenholtz P., Fishbain S., Abicht H., Blackall L.L., Stahl D.A. and Wagner M. (2001) Multiple lateral transfer events of dissimilatory sulfite reductase genes between major lineages of sulfate-reducing prokaryotes. J. Bact. 183: 6028-6035.'
         ],
         2000: [
             'Baldauf S.L., Roger A.J., Wenk-Siefert I. and Doolittle W. F. (2000) A kingdom-level phylogeny of eukaryotes based on combined protein data. Science 290:972-977.'
@@ -317,7 +318,8 @@ document.addEventListener("DOMContentLoaded", () => {
         "Nucl. Acids Res.",
         "Science",
         "J. Bacteriol.",
-        "Trends Biochem."
+        "Trends Biochem.",
+        "J. Bact."
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
