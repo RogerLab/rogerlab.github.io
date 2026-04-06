@@ -175,6 +175,16 @@ document.addEventListener("DOMContentLoaded", () => {
             'Pepke S., Butt D., Nadeau I., Roger A.J. and Blouin C. (2007) Using confidence set heuristics during topology search improves the robustness of phylogenetic inference. J. Mol. Evol. 64:80-89.',
             'Spencer M., Susko E. and Roger A.J. (2007) Modelling prokaryote gene content. Evol. Bioinform. Online, 2:157-178.',
             'Wang H.C., Spencer M., Susko E. and Roger A.J. (2007) Testing for covarion-like evolution in protein sequences. Mol. Biol. Evol. 24:294-305.'
+        ],
+        2006: [
+            'Goddard M., Leigh J., Roger A.J. and Pemberton A.J. (2006) Invasion and persistence of a selfish gene in the Cnidaria. PLoS ONE 1:e3.',
+            'Stechmann A., Baumgartner M., Silberman J.D. and Roger A.J. (2006) The glycolytic pathway of Trimastix pyriformis is an evolutionary mosaic. BMC Evol. Biol. 6:101.',
+            'Ruiz-Trillo I., Lane C., Archibald J.M. and Roger A.J. (2006) Insights into the evolutionary origin and genome architecture of the unicellular opisthokonts Capsaspora owczarzaki and Sphaeroforma arctica. J. Euk. Microbiol. 53:379-384.',
+            'Inagaki Y. and Roger A.J. (2006) Phylogenetic estimation under codon models can be biased by codon usage heterogeneity. Mol. Phylogenet. Evol. 40:428-434.',
+            'Andersson J.O., Hirt R.P., Foster P.G. and Roger A.J. (2006) Evolution of four gene families with patchy phylogenetic distributions: influx of genes into protist genomes. BMC Evol. Biol. 6:27.',
+            'Wang H.C., Susko E. and Roger A.J. (2006) On the correlation between genomic G+C content and optimal growth temperature in prokaryotes: data quality and confounding factors. Biochem Biophys Res Commun. 342:681-684.',
+            'Simpson A.G.B, Inagaki Y. and Roger A.J. (2006) Comprehensive multigene phylogenies of excavate protists reveal the evolutionary positions of ‘primitive’ eukaryotes.  Mol. Biol. Evol. 23:615-625.',
+            'Inagaki Y., Susko E. and Roger A.J. (2006) Recombination between elongation factor 1α genes from distantly-related archaeal lineages. Proc. Natl. Acad. Sci. USA 103:4528-4533.'
         ]
     };
 
@@ -225,11 +235,12 @@ document.addEventListener("DOMContentLoaded", () => {
         "Commun. Integr. Biol.",
         "Bioinformatics",
         "Env. Microbiol.",
-        "Evol. Bioinform."
+        "Evol. Bioinform.",
+        "Biochem Biophys Res Commun."
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
-    const endYear = 2007;
+    const endYear = 2006;
     const container = document.getElementById("publications-by-year");
 
     function escapeRegExp(string) {
