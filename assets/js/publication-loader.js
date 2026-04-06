@@ -251,6 +251,10 @@ document.addEventListener("DOMContentLoaded", () => {
             'Roger A.J., Smith M.W., Doolittle R.F. and Doolittle W.F. (1996) Evidence for the Heterolobosea from phylogenetic analysis of genes encoding glyceraldehyde-3-phosphate dehydrogenase. J. Euk. Microbiol. 43: 475-485.',
             'Rozario C., Morin L., Roger A.J., Smith M.W. and Müller M. (1996) Primary structure and phylogenetic relationships of glyceraldehyde-3-phosphate dehydrogenase genes of free-living and parasitic diplomonad flagellates. J. Euk. Microbiol. 43: 330-340.',
             'Roger A.J. and Brown J.R. (1996) A chimaeric origin for eukaryotes re-examined. Trends Biochem. Sci. 21: 370-371.'
+        ],
+        1995: [
+            'Clark C.G. and Roger A.J. (1995) Direct evidence for loss of mitochondria in Entamoeba histolytica. Proc. Natl. Acad. Sci. USA 92: 6518-6521.',
+            'Keeling P.J. and Roger A.J. (1995) The selfish pursuit of sex. Nature 375: 283.'
         ]
     };
 
@@ -317,7 +321,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
-    const endYear = 1996;
+    const endYear = 1995;
     const container = document.getElementById("publications-by-year");
 
     function escapeRegExp(string) {
