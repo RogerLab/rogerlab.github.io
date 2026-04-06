@@ -153,6 +153,18 @@ document.addEventListener("DOMContentLoaded", () => {
             'Wang H.-C., Susko E. and Roger A.J. (2009) PROCOV: maximum likelihood estimation of protein phylogeny under covarion models and site-specific covarion pattern analysis. BMC Evol. Biol. 9: 225.',
             'Kamikawa R., Sanchez-Perez G.F., Sako Y., Roger A.J. and Inagaki Y. (2009) Expanded phylogenies of canonical and non-canonical types of methionine adenosyltransferase reveal a complex history of these gene families in eukaryotes. Mol. Phylogenet. Evol. 53:565-570.',
             'Hampl V., Hug L.A., Leigh J.W., Dacks J.B., Lang B.F., Simpson A.G.B. and Roger A.J.  (2009) Phylogenomic analyses support the monophyly of Excavata and resolve relationships among eukaryotic “supergroups”. Proc. Natl. Acad. Sci. USA 106: 3859-3864.'
+        ],
+        2008: [
+            'Wang H.-C., Li K.M., Susko E. and Roger A.J. (2008) A class frequency mixture model that adjusts for site-specific amino acid frequencies and improves inference of protein phylogeny. BMC Evol. Biol. 8:331.',
+            'Sanchez-Perez G., Hampl V., Simpson A.G.B. and Roger A.J. (2008) A new divergent type of eukaryotic methionine adenosyltransferase that has spread by gene transfer between secondary algae. J. Euk. Microbiol. 55: 374-381.',
+            'Hamblin K., Standley D.M., Rogers M.B., Stechmann A., Roger A.J., Maytum R. and van der Giezen M. (2008) Localization and nucleotide specificity of Blastocystis succinyl-CoA synthetase. Mol. Microbiol. 68: 1395-1405.',
+            'Kolisko M., Cepicka I., Hampl V., Leigh J., Roger A.J., Kulda J., Simpson A.G.B. and Flegr J. (2008) Molecular phylogeny of diplomonads and enteromonads based on SSU rRNA, α-tubulin and HSP90 genes: implications for the evolutionary history of the double karyomastigont of diplomonads. BMC Evol. Biol. 8: 205.',
+            'Hampl V., Silberman J.D., Stechmann A., Diaz-Triviño S., Johnson P.J. and Roger A.J. (2008) Genetic evidence for a mitochondriate ancestry in the amitochondriate flagellate Trimastix pyriformis. PLoS ONE 3:e1383.',
+            'Stechmann A., Hamblin K., Perez-Brocal V., Gaston D., Richmond G.S., van der Giezen M., Clark C.G. and Roger A.J. (2008) Organelles in Blastocystis that blur the distinction between mitochondria and hydrogenosomes. Curr. Biol. 18: 580-585.',
+            'Ruiz-Trillo I., Roger A.J., Burger G., Gray M.W. and Lang B.F. (2008) A phylogenomic investigation into the origin of Metazoa. Mol. Biol. Evol. 25: 664-672.',
+            'Wang H.-C., Susko E., Spencer M. and Roger A.J. (2008) Topological estimation biases with covarion evolution. J. Mol. Evol. 66: 50-60.',
+            'Leigh J., Susko E., Baumgartner M. and Roger A.J. (2008) Testing congruence in phylogenomic analysis. Syst. Biol. 57: 104-115.',
+            'Wu J. Susko E. and Roger A.J. (2008) An independent heterotachy model and its implications for phylogeny and divergence time estimation. Mol. Phylogenet. Evol. 46: 801-806.'
         ]
     };
 
@@ -206,7 +218,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
-    const endYear = 2009;
+    const endYear = 2008;
     const container = document.getElementById("publications-by-year");
 
     function escapeRegExp(string) {
