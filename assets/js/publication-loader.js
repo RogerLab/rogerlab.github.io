@@ -225,6 +225,10 @@ document.addEventListener("DOMContentLoaded", () => {
             'Andersson J.O. and Roger A.J. (2002b) A cyanobacterial gene in non-photosynthetic protists – an early chloroplast acquisition in eukaryotes? Curr. Biol. 12:115-119.',
             'Archibald J.M. and Roger A.J. (2002) Gene duplication and gene conversion shape the evolution of archaeal chaperonins. J. Mol. Biol. 316:1041-1050.',
             'Inagaki Y., Blouin C., Doolittle W.F. and Roger A.J. (2002) Convergence and constraint in eukaryotic release factor 1 (eRF1) domain 1: The evolution of stop codon specificity. Nucl. Acids Res. 30:532-544.',
+        ],
+        2001: [
+            'Morrison H.G., Roger A.J., Nystul T. G., Gillin F.D. and Sogin M.L. (2001) Giardia lamblia expresses a proteobacterial-like DnaK homolog. Mol. Biol. Evol. 18:530-541.',
+            'Edgcomb V.P.*, Roger A.J.*,  Simpson A.G.B., Kysela D.T. and Sogin M.L. (2001) Evolutionary relationships among "jakobid" flagellates as indicated by alpha- and beta-tubulin phylogenies. Mol. Biol. Evol. 18:514-522 (*co-first authors). '
         ]
     };
 
@@ -288,7 +292,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
-    const endYear = 2002;
+    const endYear = 2001;
     const container = document.getElementById("publications-by-year");
 
     function escapeRegExp(string) {
