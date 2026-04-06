@@ -245,6 +245,12 @@ document.addEventListener("DOMContentLoaded", () => {
             'Fast N.M., Roger A.J., Richardson C. and Doolittle W.F. (1998) U2 and U6 snRNA genes from the microsporidian Nosema locustae:  Evidence for a functional spliceosome. Nucl. Acids Res. 26: 3202-3207.',
             'Roger A.J., Svärd S.G., Tovar J., Clark C.G., Smith M.W., Gillin F.D. and Sogin M.L. (1998) A mitochondrial-like chaperonin 60 gene in Giardia  lamblia:  Evidence that diplomonads once harbored an endosymbiont related to the progenitor of mitochondria. Proc. Natl. Acad. Sci. USA 95: 229-234.',
             'Wagner M., Roger A.J., Flax J.L., Brusseau G.A. and Stahl D.A. (1998) Phylogeny of dissimilatory sulfite reductases supports an early origin of sulfate respiration. J. Bacteriol. 180: 2975-2982.'
+        ],
+        1996: [
+            'Roger A.J., Clark C.G. and Doolittle W.F. (1996) A possible mitochondrial gene in the amitochondriate protist Trichomonas vaginalis. Proc. Natl. Acad. Sci. USA 93: 14618-14622.',
+            'Roger A.J., Smith M.W., Doolittle R.F. and Doolittle W.F. (1996) Evidence for the Heterolobosea from phylogenetic analysis of genes encoding glyceraldehyde-3-phosphate dehydrogenase. J. Euk. Microbiol. 43: 475-485.',
+            'Rozario C., Morin L., Roger A.J., Smith M.W. and Müller M. (1996) Primary structure and phylogenetic relationships of glyceraldehyde-3-phosphate dehydrogenase genes of free-living and parasitic diplomonad flagellates. J. Euk. Microbiol. 43: 330-340.',
+            'Roger A.J. and Brown J.R. (1996) A chimaeric origin for eukaryotes re-examined. Trends Biochem. Sci. 21: 370-371.'
         ]
     };
 
@@ -306,11 +312,12 @@ document.addEventListener("DOMContentLoaded", () => {
         "J. Mol. Biol.",
         "Nucl. Acids Res.",
         "Science",
-        "J. Bacteriol."
+        "J. Bacteriol.",
+        "Trends Biochem."
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
-    const endYear = 1998;
+    const endYear = 1996;
     const container = document.getElementById("publications-by-year");
 
     function escapeRegExp(string) {
