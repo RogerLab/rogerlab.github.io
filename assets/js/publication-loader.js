@@ -212,6 +212,19 @@ document.addEventListener("DOMContentLoaded", () => {
             'Andersson J.O. and Roger A.J. (2003) Evolution of glutamate dehydrogenase genes: lateral gene transfer within and between prokaryotes and eukaryotes. BMC Evol. Biol. 3:13.',
             'Andersson J.O., Sjögren Å.M., Davis L.A.M., Embley T.M. and Roger A.J. (2003) Phylogenetic analyses of diplomonad genes reveal frequent lateral gene transfers affecting eukaryotes. Curr. Biol. 13:94-104.',
             'Blouin C., Boucher Y. and Roger A.J. (2003) Inferring functional constraints and divergence in protein families using 3D mapping of phylogenetic information. Nucleic Acids Res. 31: 790-797.'
+        ],
+        2002: [
+            'Simpson A.G.B., MacQuarrie E. and Roger A.J. (2002) Early origin of canonical introns. (Brief Communication) Nature 419:270.',
+            'Susko E., Inagaki Y., Field C., Holder M.E. and Roger A.J. (2002) Testing for differences in rates across sites distributions in phylogenetic subtrees. Mol. Biol. Evol. 19:1514-1523.',
+            'Simpson A.G.B., Roger A.J., Silberman J.D., Leipe D., Edgcomb V.E., Jermiin L.S. Patterson D.J. and Sogin M.L. (2002) Molecular phylogenies reveal a novel close relative for diplomonads, the excavate taxon Carpediemonas. Mol. Biol. Evol. 19:1782-1791.',
+            'Simpson A.G.B., Lukes J. and Roger A.J. (2002) The evolutionary history of kinetoplastids and their kinetoplasts. Mol. Biol. Evol. 19:2071-2083.',
+            'Archibald J.M. and Roger A.J. (2002) Gene conversion and the evolution of euryarchaeal chaperonins: a maximum likelihood-based method for detecting conflicting phylogenetic signal. J. Mol. Evol. 55:232-245.',
+            'Silberman J.D., Simpson A.G.B., Kulda J., Cepicka I., Hampl V., Johnson P.J. and Roger A.J. (2002) Retortamonad flagellates are closely related to diplomonads – implications for the history of mitochondrial function in eukaryote evolution. Mol. Biol. Evol. 19:777-786.',
+            'Inagaki Y., Doolittle W.F., Baldauf S.L. and Roger A.J. (2002) Lateral transfer of an EF-1 gene: Origin and evolution of the large subunit of ATP sulfurylase in eubacteria. Curr. Biol. 12:1-20.',
+            'Andersson J.O. and Roger A.J. (2002a) Evolutionary analysis of the small subunit of glutamate synthase: Gene order conservation, gene fusions and prokaryote-to-eukaryote lateral gene transfers. Euk. Cell. 1:304-310.',
+            'Andersson J.O. and Roger A.J. (2002b) A cyanobacterial gene in non-photosynthetic protists – an early chloroplast acquisition in eukaryotes? Curr. Biol. 12:115-119.',
+            'Archibald J.M. and Roger A.J. (2002) Gene duplication and gene conversion shape the evolution of archaeal chaperonins. J. Mol. Biol. 316:1041-1050.',
+            'Inagaki Y., Blouin C., Doolittle W.F. and Roger A.J. (2002) Convergence and constraint in eukaryotic release factor 1 (eRF1) domain 1: The evolution of stop codon specificity. Nucl. Acids Res. 30:532-544.',
         ]
     };
 
@@ -268,11 +281,14 @@ document.addEventListener("DOMContentLoaded", () => {
         "Prot. Sci.",
         "Nucleic Acids Research",
         "Proceedings of the 2003 IEEE Bioinformatics Conference (CSB2003)",
-        "Proc. Roy. Soc. Lond."
+        "Proc. Roy. Soc. Lond.",
+        "Euk. Cell.",
+        "J. Mol. Biol.",
+        "Nucl. Acids Res."
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
-    const endYear = 2003;
+    const endYear = 2002;
     const container = document.getElementById("publications-by-year");
 
     function escapeRegExp(string) {
