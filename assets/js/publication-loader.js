@@ -232,6 +232,12 @@ document.addEventListener("DOMContentLoaded", () => {
         ],
         2000: [
             'Baldauf S.L., Roger A.J., Wenk-Siefert I. and Doolittle W. F. (2000) A kingdom-level phylogeny of eukaryotes based on combined protein data. Science 290:972-977.'
+        ],
+        1999: [
+            'Roger A.J., Morrison H.G. and Sogin M.L. (1999) Primary structure and phylogenetic relationships of a malate dehydrogenase gene from Giardia lamblia. J. Mol. Evol. 48:750-755.',
+            'Dacks J. and Roger A.J. (1999) The first sexual lineage and the relevance of facultative sex. J. Mol. Evol. 48: 779-783.',
+            'Duncan R., Faggart M.A., Roger A.J. and Cornell N.W. (1999) Phylogenetic analysis of the 5-aminolevulinate synthase gene. Mol. Biol. Evol. 16: 383-396.',
+            'Roger A.J., Sandblom O., Doolittle W.F. and Philippe H. (1999) An evaluation of elongation factor 1 as a phylogenetic marker for eukaryotes. Mol. Biol. Evol. 16: 218-233.'
         ]
     };
 
@@ -296,7 +302,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
-    const endYear = 2000;
+    const endYear = 1999;
     const container = document.getElementById("publications-by-year");
 
     function escapeRegExp(string) {
