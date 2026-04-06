@@ -238,6 +238,13 @@ document.addEventListener("DOMContentLoaded", () => {
             'Dacks J. and Roger A.J. (1999) The first sexual lineage and the relevance of facultative sex. J. Mol. Evol. 48: 779-783.',
             'Duncan R., Faggart M.A., Roger A.J. and Cornell N.W. (1999) Phylogenetic analysis of the 5-aminolevulinate synthase gene. Mol. Biol. Evol. 16: 383-396.',
             'Roger A.J., Sandblom O., Doolittle W.F. and Philippe H. (1999) An evaluation of elongation factor 1 as a phylogenetic marker for eukaryotes. Mol. Biol. Evol. 16: 218-233.'
+        ],
+        1998: [
+            'Edgcomb V.P., Viscogliosi E., Simpson A.G.B., Delgado-Viscogliosi P., Roger A.J., and Sogin M.L. (1998) New insights into the phylogeny of trichomonads inferred from small subunit rRNA sequences. Protist 149: 359-366.',
+            'Beaton M.J., Roger A.J. and Cavalier-Smith T. (1998) Sequence analysis of the mitochondrial genome of Sarcophyton glaucum: conserved gene order among octocorals. J. Mol. Evol. 47: 697-708.',
+            'Fast N.M., Roger A.J., Richardson C. and Doolittle W.F. (1998) U2 and U6 snRNA genes from the microsporidian Nosema locustae:  Evidence for a functional spliceosome. Nucl. Acids Res. 26: 3202-3207.',
+            'Roger A.J., Svärd S.G., Tovar J., Clark C.G., Smith M.W., Gillin F.D. and Sogin M.L. (1998) A mitochondrial-like chaperonin 60 gene in Giardia  lamblia:  Evidence that diplomonads once harbored an endosymbiont related to the progenitor of mitochondria. Proc. Natl. Acad. Sci. USA 95: 229-234.',
+            'Wagner M., Roger A.J., Flax J.L., Brusseau G.A. and Stahl D.A. (1998) Phylogeny of dissimilatory sulfite reductases supports an early origin of sulfate respiration. J. Bacteriol. 180: 2975-2982.'
         ]
     };
 
@@ -298,11 +305,12 @@ document.addEventListener("DOMContentLoaded", () => {
         "Euk. Cell.",
         "J. Mol. Biol.",
         "Nucl. Acids Res.",
-        "Science"
+        "Science",
+        "J. Bacteriol."
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
-    const endYear = 1999;
+    const endYear = 1998;
     const container = document.getElementById("publications-by-year");
 
     function escapeRegExp(string) {
