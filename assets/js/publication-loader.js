@@ -355,6 +355,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const allYears = [];
     for (let year = startYear; year >= endYear; year--) {
+        if (year === 1997) continue;
         allYears.push(year);
     }
 
