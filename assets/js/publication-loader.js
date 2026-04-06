@@ -147,6 +147,12 @@ document.addEventListener("DOMContentLoaded", () => {
             'Baurain D., Brinkmann H., Petersen, J. Rodríguez-Ezpeleta N., Stechmann A., Demoulin V., Roger A.J., Burger G., Lang B.F. and Philippe H. (2010) Phylogenomic evidence for separate acquisition of plastids in cryptophytes, haptophytes and stramenopiles. Mol. Biol. Evol. 27: 1698-1709.',
             'Kolisko M., Silberman J.D., Cepicka I., Yubuki N., Takishita K., Yabuki A., Leander B.S., Inouye I., Inagaki Y., Roger A.J. and Simpson A.G.B. (2010) A wide diversity of previously undetected free-living relatives of diplomonads isolated from marine/saline habitats. Env. Microbiol. 12: 2700-2710.',
             'Hug L.A., Stechmann A. and Roger A.J. (2010) Phylogenetic distributions and histories of proteins involved in anaerobic pyruvate metabolism in eukaryotes. Mol. Biol. Evol. 27:311-324.'
+        ],
+        2009: [
+            'Blouin C., Perry S., Lavell A., Susko E. and Roger A.J. (2009) Reproducing the manual annotation of multiple sequence alignment using a SVM classifier. Bioinformatics 25: 3093-3098.',
+            'Wang H.-C., Susko E. and Roger A.J. (2009) PROCOV: maximum likelihood estimation of protein phylogeny under covarion models and site-specific covarion pattern analysis. BMC Evol. Biol. 9: 225.',
+            'Kamikawa R., Sanchez-Perez G.F., Sako Y., Roger A.J. and Inagaki Y. (2009) Expanded phylogenies of canonical and non-canonical types of methionine adenosyltransferase reveal a complex history of these gene families in eukaryotes. Mol. Phylogenet. Evol. 53:565-570.',
+            'Hampl V., Hug L.A., Leigh J.W., Dacks J.B., Lang B.F., Simpson A.G.B. and Roger A.J.  (2009) Phylogenomic analyses support the monophyly of Excavata and resolve relationships among eukaryotic “supergroups”. Proc. Natl. Acad. Sci. USA 106: 3859-3864.'
         ]
     };
 
@@ -200,7 +206,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
-    const endYear = 2010;
+    const endYear = 2009;
     const container = document.getElementById("publications-by-year");
 
     function escapeRegExp(string) {
