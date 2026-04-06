@@ -192,6 +192,16 @@ document.addEventListener("DOMContentLoaded", () => {
             'Spencer M., Susko E. and Roger A.J. (2005) Likelihood, parsimony and heterogeneous evolution. Mol. Biol. Evol. 22:1161-1164.',
             'Blouin C., Butt D. and Roger A.J. (2005) The impact of taxon sampling on the estimation of rates of evolution at sites. Mol. Biol. Evol. 22:784-791.',
             'Andersson J.O., Sarchfield S. and Roger A.J. (2005) Gene transfers from Nanoarchaeota to an ancestor of diplomonads and parabasalids. Mol. Biol. Evol. 22:85-90.'
+        ],
+        2004: [
+            'Simpson A.G.B., Gill E.E., Callahan H.A., Litaker R.W. and Roger A.J. (2004) Early evolution within kinetoplastids (euglenozoa), and the late emergence of trypanosomatids. Protist 155:407-422.',
+            'Ruiz-Trillo I., Inagaki Y., Davis L.A., Sperstad S., Landfald B. and Roger A.J. (2004) Capsaspora owczarzaki is an independent opisthokont lineage. Curr. Biol. 14:R946-R947.',
+            'Susko E., Inagaki Y. and Roger A.J. (2004) On inconsistency of the neighbor-joining, least squares, and minimum evolution estimation when substitution processes are incorrectly modeled. Mol. Biol. Evol. 21:1629-1642.',
+            'Inagaki Y., Susko E., Fast N.M. and Roger A.J. (2004) Covarion shifts cause a long-branch attraction artifact that unites Microsporidia and Archaebacteria in EF-1α phylogenies. Mol. Biol. Evol. 21:1340-1349.',
+            'Susko E. and Roger A.J. (2004) Estimating and comparing the rates of gene discovery and expressed sequence tag (EST) frequencies from EST surveys. Bioinformatics 20: 2279-2287.',
+            'Blouin C., Butt D. and Roger A.J. (2004) Rapid evolution in conformational space: a study of loop regions in a ubiquitous GTP-binding domain. Prot. Sci. 13:608-616.',
+            'Inagaki Y., Simpson A.G.B., Dacks J. and Roger A.J. (2004) Phylogenetic artifacts can be caused by leucine, serine and arginine codon usage heterogeneity: dinoflagellate plastid origins as a case study. Syst. Biol. 53:582-593',
+            'Silberman J.D., Collins A.G., Gershwin L.-A., Johnson P.J. and Roger A.J. (2004) Ellobiopsidae of the genus Thallasomyces are alveolates. J. Euk. Microbiol. 51:246-252.'
         ]
     };
 
@@ -244,11 +254,12 @@ document.addEventListener("DOMContentLoaded", () => {
         "Env. Microbiol.",
         "Evol. Bioinform.",
         "Biochem Biophys Res Commun.",
-        "BMC Bioinf."
+        "BMC Bioinf.",
+        "Prot. Sci."
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
-    const endYear = 2005;
+    const endYear = 2004;
     const container = document.getElementById("publications-by-year");
 
     function escapeRegExp(string) {
