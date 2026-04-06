@@ -185,6 +185,13 @@ document.addEventListener("DOMContentLoaded", () => {
             'Wang H.C., Susko E. and Roger A.J. (2006) On the correlation between genomic G+C content and optimal growth temperature in prokaryotes: data quality and confounding factors. Biochem Biophys Res Commun. 342:681-684.',
             'Simpson A.G.B, Inagaki Y. and Roger A.J. (2006) Comprehensive multigene phylogenies of excavate protists reveal the evolutionary positions of ‘primitive’ eukaryotes.  Mol. Biol. Evol. 23:615-625.',
             'Inagaki Y., Susko E. and Roger A.J. (2006) Recombination between elongation factor 1α genes from distantly-related archaeal lineages. Proc. Natl. Acad. Sci. USA 103:4528-4533.'
+        ],
+        2005: [
+            'Susko E., Spencer M. and Roger A.J. (2005) Biases in phylogenetic estimation can be caused by random sequence segments. J. Mol. Evol. 61:351-359.',
+            'Butt D., Roger A.J. and Blouin C. (2005) libcov: a C++ bioinformatic library to manipulate protein structures, sequence alignments and phylogeny. BMC Bioinf. 6:138.',
+            'Spencer M., Susko E. and Roger A.J. (2005) Likelihood, parsimony and heterogeneous evolution. Mol. Biol. Evol. 22:1161-1164.',
+            'Blouin C., Butt D. and Roger A.J. (2005) The impact of taxon sampling on the estimation of rates of evolution at sites. Mol. Biol. Evol. 22:784-791.',
+            'Andersson J.O., Sarchfield S. and Roger A.J. (2005) Gene transfers from Nanoarchaeota to an ancestor of diplomonads and parabasalids. Mol. Biol. Evol. 22:85-90.'
         ]
     };
 
@@ -236,11 +243,12 @@ document.addEventListener("DOMContentLoaded", () => {
         "Bioinformatics",
         "Env. Microbiol.",
         "Evol. Bioinform.",
-        "Biochem Biophys Res Commun."
+        "Biochem Biophys Res Commun.",
+        "BMC Bioinf."
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
-    const endYear = 2006;
+    const endYear = 2005;
     const container = document.getElementById("publications-by-year");
 
     function escapeRegExp(string) {
