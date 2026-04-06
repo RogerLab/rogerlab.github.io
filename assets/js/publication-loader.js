@@ -165,6 +165,16 @@ document.addEventListener("DOMContentLoaded", () => {
             'Wang H.-C., Susko E., Spencer M. and Roger A.J. (2008) Topological estimation biases with covarion evolution. J. Mol. Evol. 66: 50-60.',
             'Leigh J., Susko E., Baumgartner M. and Roger A.J. (2008) Testing congruence in phylogenomic analysis. Syst. Biol. 57: 104-115.',
             'Wu J. Susko E. and Roger A.J. (2008) An independent heterotachy model and its implications for phylogeny and divergence time estimation. Mol. Phylogenet. Evol. 46: 801-806.'
+        ],
+        2007: [
+            'Gill E.E., Diaz-Triviño S., Barberà M.J., Silberman J.D., Stechmann A., Gaston D., Tamas I. and Roger A.J. (2007) Novel mitochondrion-related organelles with a unique array of functions in the anaerobic amoeba Mastigamoeba balamuthi. Mol. Microbiol. 66:1306-1320.',
+            'Rodriguez-Ezpeleta N., Brinkmann H., Burger G., Roger A.J., Gray M.W., Philippe H. and Lang B.F. (2007). Toward resolving the eukaryotic tree: the phylogenetic position of jakobids and cercozoans. Curr. Biol. 17:1420-1425.',
+            'Susko E. and Roger A.J. (2007) On reduced amino acid alphabets for phylogenetic inference. Mol. Biol. Evol. 24:2139-2150.',
+            'Hug L.A. and Roger A.J. (2007) The impact of fossils and taxon sampling on ancient molecular dating analyses. Mol. Biol. Evol. 24:1889-1897.',
+            'Andersson J.O., Sjogren Å., Horner D.S., Murphy C.A., Dyal P., Svärd S., Logsdon J.M., Ragan M.A., Hirt R.P., and Roger A.J. (2007) A genomic survey of the fish parasite Spironucleus salmonicida indicates genomic plasticity among diplomonads and significant lateral gene transfer in eukaryote genome evolution. BMC Genomics 8:51.',
+            'Pepke S., Butt D., Nadeau I., Roger A.J. and Blouin C. (2007) Using confidence set heuristics during topology search improves the robustness of phylogenetic inference. J. Mol. Evol. 64:80-89.',
+            'Spencer M., Susko E. and Roger A.J. (2007) Modelling prokaryote gene content. Evol. Bioinform. Online, 2:157-178.',
+            'Wang H.C., Spencer M., Susko E. and Roger A.J. (2007) Testing for covarion-like evolution in protein sequences. Mol. Biol. Evol. 24:294-305.'
         ]
     };
 
@@ -214,11 +224,12 @@ document.addEventListener("DOMContentLoaded", () => {
         "Mobile Genet. Elements",
         "Commun. Integr. Biol.",
         "Bioinformatics",
-        "Env. Microbiol."
+        "Env. Microbiol.",
+        "Evol. Bioinform."
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
-    const endYear = 2008;
+    const endYear = 2007;
     const container = document.getElementById("publications-by-year");
 
     function escapeRegExp(string) {
