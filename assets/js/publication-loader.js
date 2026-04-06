@@ -229,6 +229,9 @@ document.addEventListener("DOMContentLoaded", () => {
         2001: [
             'Morrison H.G., Roger A.J., Nystul T. G., Gillin F.D. and Sogin M.L. (2001) Giardia lamblia expresses a proteobacterial-like DnaK homolog. Mol. Biol. Evol. 18:530-541.',
             'Edgcomb V.P.*, Roger A.J.*,  Simpson A.G.B., Kysela D.T. and Sogin M.L. (2001) Evolutionary relationships among "jakobid" flagellates as indicated by alpha- and beta-tubulin phylogenies. Mol. Biol. Evol. 18:514-522 (*co-first authors). '
+        ],
+        2000: [
+            'Baldauf S.L., Roger A.J., Wenk-Siefert I. and Doolittle W. F. (2000) A kingdom-level phylogeny of eukaryotes based on combined protein data. Science 290:972-977.'
         ]
     };
 
@@ -288,11 +291,12 @@ document.addEventListener("DOMContentLoaded", () => {
         "Proc. Roy. Soc. Lond.",
         "Euk. Cell.",
         "J. Mol. Biol.",
-        "Nucl. Acids Res."
+        "Nucl. Acids Res.",
+        "Science"
     ].sort((a, b) => b.length - a.length);
 
     const startYear = 2026;
-    const endYear = 2001;
+    const endYear = 2000;
     const container = document.getElementById("publications-by-year");
 
     function escapeRegExp(string) {
