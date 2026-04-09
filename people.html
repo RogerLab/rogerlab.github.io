@@ -34,6 +34,7 @@
 				transition: transform 0.2s ease, box-shadow 0.2s ease;
 				width: 200px;
 				box-sizing: border-box;
+				overflow: hidden;
 			}
 
 			.portrait-card:hover {
@@ -41,13 +42,22 @@
 				box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 			}
 
-			.portrait-card img {
+			.portrait-frame {
 				width: 140px;
 				height: 140px;
-				object-fit: cover;
 				border-radius: 50%;
+				overflow: hidden;
 				margin-bottom: 0.75rem;
 				border: 3px solid #ddd;
+				box-sizing: border-box;
+				flex-shrink: 0;
+			}
+
+			.portrait-frame img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				display: block;
 			}
 
 			.portrait-name {
@@ -99,7 +109,9 @@
 					<div class="portrait-grid">
 
 						<div class="portrait-card">
-							<img src="images/AndrewFD.jpg" alt="Portrait of Andrew">
+							<div class="portrait-frame">
+								<img src="images/AndrewFD.jpg" alt="Portrait of Andrew">
+							</div>
 							<span class="portrait-name">Andrew J. Roger</span>
 							<span class="portrait-subtext">Distinguished Professor</span>
 						</div>
@@ -115,19 +127,25 @@
 					<div class="portrait-grid">
 
 						<a href="joran.html" class="portrait-card">
-							<img src="images/Joran.jpg" alt="Portrait of Joran">
+							<div class="portrait-frame">
+								<img src="images/Joran.jpg" alt="Portrait of Joran">
+							</div>
 							<span class="portrait-name">Joran Martijn</span>
 							<span class="portrait-subtext">Research Associate</span>
 						</a>
 
 						<div class="portrait-card">
-							<img src="images/placeholder.png" alt="Portrait of Kathy">
+							<div class="portrait-frame">
+								<img src="images/placeholder.png" alt="Portrait of Kathy">
+							</div>
 							<span class="portrait-name">Katherine Dunn</span>
 							<span class="portrait-subtext">Research Associate</span>
 						</div>
 
 						<div class="portrait-card">
-							<img src="images/placeholder.png" alt="Portrait of Marlena">
+							<div class="portrait-frame">
+								<img src="images/placeholder.png" alt="Portrait of Marlena">
+							</div>
 							<span class="portrait-name">Marlena Dlutek</span>
 							<span class="portrait-subtext">Lab Manager</span>
 						</div>
@@ -143,31 +161,41 @@
 					<div class="portrait-grid">
 
 						<div class="portrait-card">
-							<img src="images/placeholder.png" alt="Portrait of Greg">
+							<div class="portrait-frame">
+								<img src="images/placeholder.png" alt="Portrait of Greg">
+							</div>
 							<span class="portrait-name">Gregory Seaton</span>
 							<span class="portrait-subtext">PhD Student</span>
 						</div>
 
 						<div class="portrait-card">
-							<img src="images/Jason.jpg" alt="Portrait of Jason">
+							<div class="portrait-frame">
+								<img src="images/Jason.jpg" alt="Portrait of Jason">
+							</div>
 							<span class="portrait-name">Jason D. Shao</span>
 							<span class="portrait-subtext">PhD Student</span>
 						</div>
 
-						<div  class="portrait-card">
-							<img src="images/placeholder.png" alt="Portrait of Kelsey">
+						<div class="portrait-card">
+							<div class="portrait-frame">
+								<img src="images/placeholder.png" alt="Portrait of Kelsey">
+							</div>
 							<span class="portrait-name">Kelsey Williamson</span>
 							<span class="portrait-subtext">PhD Student</span>
 						</div>
 
 						<div class="portrait-card">
-							<img src="images/placeholder.png" alt="Portrait of Min">
+							<div class="portrait-frame">
+								<img src="images/placeholder.png" alt="Portrait of Min">
+							</div>
 							<span class="portrait-name">Min Sang Cho</span>
 							<span class="portrait-subtext">PhD Student</span>
 						</div>
 
 						<a href="tugba.html" class="portrait-card">
-							<img src="images/Tugba.jpg" alt="Portrait of Tuğba">
+							<div class="portrait-frame">
+								<img src="images/Tugba.jpg" alt="Portrait of Tuğba" style="transform: scale(1.5)">
+							</div>
 							<span class="portrait-name">Tuğba Nur Atalay</span>
 							<span class="portrait-subtext">PhD Student</span>
 						</a>
@@ -183,7 +211,9 @@
 					<div class="portrait-grid">
 
 						<div class="portrait-card">
-							<img src="images/placeholder.png" alt="Portrait of Tania">
+							<div class="portrait-frame">
+								<img src="images/placeholder.png" alt="Portrait of Tania">
+							</div>
 							<span class="portrait-name">Tania Iranpour</span>
 							<span class="portrait-subtext">Honours Student</span>
 						</div>
@@ -199,61 +229,81 @@
 					<div class="portrait-grid">
 
 						<a href="ryo.html" class="portrait-card">
-							<img src="images/Ryo.png" alt="Portrait of Ryo">
+							<div class="portrait-frame">
+								<img src="images/Ryo.png" alt="Portrait of Ryo">
+							</div>
 							<span class="portrait-name">Ryo Harada</span>
 							<span class="portrait-subtext">Postdoctoral Scholar</span>
 						</a>
 
 						<a href="hyeonbeen.html" class="portrait-card">
-							<img src="images/HyeonBeen.jpg" alt="Portrait of Hyeon Been" style="object-position: center 10%">
+							<div class="portrait-frame">
+								<img src="images/HyeonBeen.jpg" alt="Portrait of Hyeon Been">
+							</div>
 							<span class="portrait-name">Hyeon Been Lee</span>
 							<span class="portrait-subtext">Visiting PhD Student</span>
 						</a>
 
 						<div class="portrait-card">
-							<img src="images/placeholder.png" alt="Portrait of Charley">
+							<div class="portrait-frame">
+								<img src="images/placeholder.png" alt="Portrait of Charley">
+							</div>
 							<span class="portrait-name">Charley McCarthy</span>
 							<span class="portrait-subtext">Postdoctoral Fellow</span>
 						</div>
 
 						<div class="portrait-card">
-							<img src="images/placeholder.png" alt="Portrait of Dandan">
+							<div class="portrait-frame">
+								<img src="images/placeholder.png" alt="Portrait of Dandan">
+							</div>
 							<span class="portrait-name">Dandan Zhao</span>
 							<span class="portrait-subtext">Bioinformatician</span>
 						</div>
 
 						<div class="portrait-card">
-							<img src="images/placeholder.png" alt="Portrait of Naomi">
+							<div class="portrait-frame">
+								<img src="images/placeholder.png" alt="Portrait of Naomi">
+							</div>
 							<span class="portrait-name">Naomi MacMillan</span>
 							<span class="portrait-subtext">Honours Student</span>
 						</div>
 
 						<div class="portrait-card">
-							<img src="images/placeholder.png" alt="Portrait of Shelby">
+							<div class="portrait-frame">
+								<img src="images/placeholder.png" alt="Portrait of Shelby">
+							</div>
 							<span class="portrait-name">Shelby Williams</span>
 							<span class="portrait-subtext">Postdoctoral Fellow</span>
 						</div>
 
 						<div class="portrait-card">
-							<img src="images/placeholder.png" alt="Portrait of Anshita">
+							<div class="portrait-frame">
+								<img src="images/placeholder.png" alt="Portrait of Anshita">
+							</div>
 							<span class="portrait-name">Anshita Madaan</span>
 							<span class="portrait-subtext">Co-op Student</span>
 						</div>
 
 						<div class="portrait-card">
-							<img src="images/placeholder.png" alt="Portrait of Hector">
+							<div class="portrait-frame">
+								<img src="images/placeholder.png" alt="Portrait of Hector">
+							</div>
 							<span class="portrait-name">Hector Baños</span>
 							<span class="portrait-subtext">Postdoctoral Fellow</span>
 						</div>
 
 						<div class="portrait-card">
-							<img src="images/placeholder.png" alt="Portrait of Justin">
+							<div class="portrait-frame">
+								<img src="images/placeholder.png" alt="Portrait of Justin">
+							</div>
 							<span class="portrait-name">Justin Daneau</span>
 							<span class="portrait-subtext">Programmer</span>
 						</div>
 
 						<div class="portrait-card">
-							<img src="images/placeholder.png" alt="Portrait of Matthew">
+							<div class="portrait-frame">
+								<img src="images/placeholder.png" alt="Portrait of Matthew">
+							</div>
 							<span class="portrait-name">Matthew Pelletier</span>
 							<span class="portrait-subtext">Summer Student</span>
 						</div>
